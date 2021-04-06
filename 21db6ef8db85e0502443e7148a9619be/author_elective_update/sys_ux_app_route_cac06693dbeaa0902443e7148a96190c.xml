@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Global Queue v2">3320aa53dbeaa0902443e7148a9619b5</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Global Queue List</name>
+        <optional_parameters>listId,configId,tinyId</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>gqlist</route_type>
+        <screen_type display_value="Global Queue List">f5c02693dbeaa0902443e7148a9619ff</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-03 00:00:27</sys_created_on>
+        <sys_id>cac06693dbeaa0902443e7148a96190c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Global Queue List</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ux_app_route_cac06693dbeaa0902443e7148a96190c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-24 18:44:52</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</application>
+        <file_path/>
+        <instance_id>63489765db7633403050ac44d49619d5</instance_id>
+        <instance_name>serviceconnectaus</instance_name>
+        <name>sys_ux_app_route_cac06693dbeaa0902443e7148a96190c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Global Queue v2">3320aa53dbeaa0902443e7148a9619b5</app_config><description/><fields/><icon/><name>Global Queue List</name><optional_parameters>listId,configId,tinyId</optional_parameters><order>0</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>gqlist</route_type><screen_type display_value="Global Queue List">f5c02693dbeaa0902443e7148a9619ff</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-03 00:00:27</sys_created_on><sys_id>cac06693dbeaa0902443e7148a96190c</sys_id><sys_mod_count>6</sys_mod_count><sys_name>Global Queue List</sys_name><sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package><sys_policy/><sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope><sys_update_name>sys_ux_app_route_cac06693dbeaa0902443e7148a96190c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-24 18:44:52</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>-1940926427</payload_hash>
+        <record_name>Global Queue List</record_name>
+        <reverted_from/>
+        <source>a5db6ef8db85e0502443e7148a9619c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-24 18:44:52</sys_created_on>
+        <sys_id>e18bae52db8fa010dc273027f39619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178658dc1400000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-24 18:44:52</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>a98bae52e48fa010bd9c8d49aa52c5ad</update_guid>
+        <update_guid_history>a98bae52e48fa010bd9c8d49aa52c5ad:-1940926427,e14b8506febea890a14a3aa59a8c07d9:-1805647707,9cc25151757a2890d8043e630287f6ad:1002516283,8f725911097a289050289d10345a32e9:1751203383,32ea85c8eefa24900730dee26acab9df:216203608,14fdfbffbde62490be643d6f4faddd5b:-1946403357,0ac066930feaa090c368e9b6adff4e0e:-860515711</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-06 18:22:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>00eb47687569484c800a7746622dc024</sys_id>
+        <sys_metadata>cac06693dbeaa0902443e7148a96190c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Global Queue List</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_scope_delete display_value="">091a9fd979b545d28a39ab3c519bb844</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_cac06693dbeaa0902443e7148a96190c</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_cac06693dbeaa0902443e7148a96190c">e18bae52db8fa010dc273027f39619ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-06 18:22:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

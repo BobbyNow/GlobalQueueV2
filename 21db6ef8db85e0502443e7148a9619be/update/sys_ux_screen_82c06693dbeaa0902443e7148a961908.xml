@@ -103,7 +103,7 @@
         <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[]</required_translations>
         <screen_condition/>
-        <screen_type display_value="Global Queue List">f5c02693dbeaa0902443e7148a9619ff</screen_type>
+        <screen_type/>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-03 00:00:27</sys_created_on>
