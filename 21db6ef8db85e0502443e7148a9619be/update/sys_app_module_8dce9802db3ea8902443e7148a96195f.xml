@@ -11,14 +11,14 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>DIRECT</link_type>
         <map_page/>
         <mobile_title>Remote Tables</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>sys_db_object</name>
         <order>910</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>/x_snc_gq2_st_remote_task_list.do?sysparm_query=&amp;sysparm_view=</query>
         <report/>
         <roles>admin</roles>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8dce9802db3ea8902443e7148a96195f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>GQ Task Table (Virtual)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
         <sys_update_name>sys_app_module_8dce9802db3ea8902443e7148a96195f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-24 16:24:41</sys_updated_on>
+        <sys_updated_on>2021-04-06 18:16:00</sys_updated_on>
         <timeline_page/>
         <title>GQ Task Table (Virtual)</title>
         <uncancelable>false</uncancelable>

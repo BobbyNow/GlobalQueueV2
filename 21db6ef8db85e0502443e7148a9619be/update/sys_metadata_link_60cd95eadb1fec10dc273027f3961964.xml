@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>1d465a31db76a8902443e7148a9619d6</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_gq2_table">
+    <x_snc_gq2_table action="INSERT_OR_UPDATE">
+        <condition table="task">sys_class_name=incident^active=true^EQ<item display_value="Incident" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="incident"/>
+            <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <endpoint_table>task</endpoint_table>
+        <name>Remote Task</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 17:40:46</sys_created_on>
+        <sys_id>1d465a31db76a8902443e7148a9619d6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 03:30:30</sys_updated_on>
+        <vtable>x_snc_gq2_st_remote_task</vtable>
+    </x_snc_gq2_table>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-06 17:59:16</sys_created_on>
+        <sys_id>60cd95eadb1fec10dc273027f3961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remote Task</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_metadata_link_60cd95eadb1fec10dc273027f3961964</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-06 17:59:16</sys_updated_on>
+        <tablename>x_snc_gq2_table</tablename>
+    </sys_metadata_link>
+</record_update>
