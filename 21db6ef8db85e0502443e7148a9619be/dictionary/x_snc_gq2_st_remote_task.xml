@@ -7,9 +7,10 @@
         <element attributes="gqDotWalk=ref_incident.caller_id.phone" label="Caller phone" max_length="40" name="caller_phone" type="string"/>
         <element label="Company" max_length="40" name="company" type="string"/>
         <element label="Configuration item" max_length="40" name="configuration_item" type="string"/>
+        <element attributes="gqDotWalk=sys_domain" label="Domain name" max_length="40" name="domain_name" type="string"/>
         <element label="Endpoint" max_length="1024" name="endpoint" type="url"/>
-        <element label="Instance" max_length="40" name="instance" type="string"/>
-        <element label="Next SLA Due" max_length="40" name="next_sla_due" type="glide_duration"/>
+        <element attributes="gqDotWalk= x_snc_gq2_instance" label="Instance" max_length="40" name="instance" type="string"/>
+        <element attributes="gqDotWalk=x_snc_gq2_next_sla_due" label="Next SLA Due" max_length="40" name="next_sla_due" type="glide_duration"/>
         <element label="Number" max_length="40" name="number" type="string"/>
         <element label="Priority" max_length="40" name="priority" type="string"/>
         <element label="Short Description" max_length="256" name="short_description" type="string"/>
