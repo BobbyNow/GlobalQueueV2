@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Remote Task" max_length="40" name="x_snc_gq2_st_remote_task" sizeclass="0" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element attributes="gqDotWalk=ref_incident.caller_id" label="Caller id" max_length="40" name="caller_id" type="string"/>
+        <element attributes="gqDotWalk=ref_incident.caller_id.phone" label="Caller phone" max_length="40" name="caller_phone" type="string"/>
+        <element label="Company" max_length="40" name="company" type="string"/>
+        <element label="Configuration item" max_length="40" name="configuration_item" type="string"/>
+        <element label="Endpoint" max_length="1024" name="endpoint" type="url"/>
+        <element label="Instance" max_length="40" name="instance" type="string"/>
+        <element label="Next SLA Due" max_length="40" name="next_sla_due" type="glide_duration"/>
+        <element label="Number" max_length="40" name="number" type="string"/>
+        <element label="Priority" max_length="40" name="priority" type="string"/>
+        <element label="Short Description" max_length="256" name="short_description" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

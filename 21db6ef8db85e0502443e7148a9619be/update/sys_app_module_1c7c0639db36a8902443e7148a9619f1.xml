@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Global Queue V2">549ba0dadb02e4102443e7148a96191b</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sys_auth_profile">sys_scope=21db6ef8db85e0502443e7148a9619be^EQ<item display_table="sys_scope" display_value="Global Queue V2" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="21db6ef8db85e0502443e7148a9619be"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Auth Profiles</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_auth_profile</name>
+        <order>505</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 16:56:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1c7c0639db36a8902443e7148a9619f1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>sys_auth_profile</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_app_module_1c7c0639db36a8902443e7148a9619f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-31 20:27:21</sys_updated_on>
+        <timeline_page/>
+        <title>Endpoint Auth Profiles</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

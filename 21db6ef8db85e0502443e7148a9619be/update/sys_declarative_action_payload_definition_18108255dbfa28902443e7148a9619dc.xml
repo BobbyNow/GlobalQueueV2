@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>TEST_OPEN_NEW_TAB</action_key>
+        <applicable_to>360935e9534723003eddddeeff7b127d</applicable_to>
+        <description/>
+        <label>Test record new tab</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_18108255dbfa28902443e7148a9619dc</payload_field_table>
+        <payload_template>{"route":"new-page-with-button","fields":{"table":"{{table}}"}}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-09 02:48:08</sys_created_on>
+        <sys_id>18108255dbfa28902443e7148a9619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test record new tab</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_18108255dbfa28902443e7148a9619dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-09 02:48:08</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

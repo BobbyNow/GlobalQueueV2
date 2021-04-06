@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>Record2</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-05 18:44:42</sys_created_on>
+        <sys_id>7545f49cdbb664902443e7148a961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record2</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ux_screen_type_7545f49cdbb664902443e7148a961935</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-05 18:44:42</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</application>
+        <file_path/>
+        <instance_id>63489765db7633403050ac44d49619d5</instance_id>
+        <instance_name>serviceconnectaus</instance_name>
+        <name>sys_ux_screen_type_7545f49cdbb664902443e7148a961935</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>Record2</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-05 18:44:42</sys_created_on><sys_id>7545f49cdbb664902443e7148a961935</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Record2</sys_name><sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package><sys_policy/><sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope><sys_update_name>sys_ux_screen_type_7545f49cdbb664902443e7148a961935</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-05 18:44:42</sys_updated_on></sys_ux_screen_type></record_update>]]></payload>
+        <payload_hash>-239322737</payload_hash>
+        <record_name>Record2</record_name>
+        <reverted_from/>
+        <source>a5db6ef8db85e0502443e7148a9619c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-05 18:44:42</sys_created_on>
+        <sys_id>8245f49cdbb664902443e7148a961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17803b4c8450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-05 18:44:42</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>0a45f49c0eb66490b09eef145ae88138</update_guid>
+        <update_guid_history>0a45f49c0eb66490b09eef145ae88138:-239322737</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-08 18:18:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>8c2cf2ce20e2412a9917143b38fceea4</sys_id>
+        <sys_metadata>7545f49cdbb664902443e7148a961935</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record2</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_scope_delete display_value="">091a9fd979b545d28a39ab3c519bb844</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_7545f49cdbb664902443e7148a961935</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_7545f49cdbb664902443e7148a961935">8245f49cdbb664902443e7148a961939</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-08 18:18:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

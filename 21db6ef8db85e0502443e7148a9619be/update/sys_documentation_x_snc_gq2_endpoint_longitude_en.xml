@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="longitude" label="Longitude" language="en" table="x_snc_gq2_endpoint">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>longitude</element>
+            <help/>
+            <hint/>
+            <label>Longitude</label>
+            <language>en</language>
+            <name>x_snc_gq2_endpoint</name>
+            <plural>Longitudes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-24 16:35:12</sys_created_on>
+            <sys_id>82ddc69adb0fa010dc273027f39619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Longitude</sys_name>
+            <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_gq2_endpoint_longitude_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-24 16:35:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

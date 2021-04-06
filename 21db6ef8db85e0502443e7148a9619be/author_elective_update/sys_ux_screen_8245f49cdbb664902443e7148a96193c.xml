@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="DELETE">
+        <active>true</active>
+        <app_config display_value="Global Queue v2">3320aa53dbeaa0902443e7148a9619b5</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Record">558adc930f0210107d20409dc4767e84</macroponent>
+        <macroponent_config>{ "bare": true }</macroponent_config>
+        <name>Record2 default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type display_value="Record2">7545f49cdbb664902443e7148a961935</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-05 18:44:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8245f49cdbb664902443e7148a96193c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Record2 default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ux_screen_8245f49cdbb664902443e7148a96193c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-06 02:29:53</sys_updated_on>
+    </sys_ux_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</application>
+        <file_path/>
+        <instance_id>63489765db7633403050ac44d49619d5</instance_id>
+        <instance_name>serviceconnectaus</instance_name>
+        <name>sys_ux_screen_8245f49cdbb664902443e7148a96193c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="Global Queue v2">3320aa53dbeaa0902443e7148a9619b5</app_config><description/><event_mappings>[ ]</event_mappings><macroponent display_value="Record">558adc930f0210107d20409dc4767e84</macroponent><macroponent_config>{ "bare": true }</macroponent_config><name>Record2 default</name><order>0</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><required_translations>[]</required_translations><screen_condition/><screen_type display_value="Record2">7545f49cdbb664902443e7148a961935</screen_type><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-05 18:44:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8245f49cdbb664902443e7148a96193c</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Record2 default</sys_name><sys_overrides/><sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package><sys_policy/><sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope><sys_update_name>sys_ux_screen_8245f49cdbb664902443e7148a96193c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-06 02:29:53</sys_updated_on></sys_ux_screen></record_update>]]></payload>
+        <payload_hash>-2147115889</payload_hash>
+        <record_name>Record2 default</record_name>
+        <reverted_from/>
+        <source>a5db6ef8db85e0502443e7148a9619c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-06 02:29:53</sys_created_on>
+        <sys_id>48cf1e10db3e64902443e7148a961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178055ea9f10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-06 02:29:53</sys_updated_on>
+        <type>UX Screen</type>
+        <update_guid>80cf1e10b63e649096a002357eacba94</update_guid>
+        <update_guid_history>80cf1e10b63e649096a002357eacba94:-2147115889,25b8d2d88bfa6490bad14a61374a7ce6:-592299379,80c31e94c8fa6490df454a50635a5570:-1575440805,09e63cdcfcb66490091e42e28853bc79:-420058321,fd65789c4bb66490db1a89418c8b8949:-1003856783,0245f49c8ab66490c25036b06b32a63f:125223077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-06 02:35:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen">sys_ux_screen</sys_db_object>
+        <sys_id>1bd09d179518418ca1781e93fb4c55a4</sys_id>
+        <sys_metadata>8245f49cdbb664902443e7148a96193c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record2 default</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_scope_delete display_value="">091a9fd979b545d28a39ab3c519bb844</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_8245f49cdbb664902443e7148a96193c</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_8245f49cdbb664902443e7148a96193c">48cf1e10db3e64902443e7148a961994</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-06 02:35:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

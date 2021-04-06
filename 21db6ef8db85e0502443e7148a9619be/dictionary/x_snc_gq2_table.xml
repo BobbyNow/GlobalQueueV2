@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="vTable Admin" max_length="40" name="x_snc_gq2_table" sizeclass="1" type="collection">
+        <element dependent="endpoint_table" dependent_on_field="endpoint_table" label="Condition" max_length="4000" name="condition" type="conditions" use_dependent_field="true"/>
+        <element label="Endpoint table" max_length="80" name="endpoint_table" type="table_name"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="vTable" max_length="80" name="vtable" type="table_name"/>
+    </element>
+</database>

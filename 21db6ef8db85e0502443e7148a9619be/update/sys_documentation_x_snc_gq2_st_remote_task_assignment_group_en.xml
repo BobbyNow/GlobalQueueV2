@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="assignment_group" label="Assignment group" language="en" table="x_snc_gq2_st_remote_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <help/>
+            <hint/>
+            <label>Assignment group</label>
+            <language>en</language>
+            <name>x_snc_gq2_st_remote_task</name>
+            <plural>Assignment groups</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-11 03:13:24</sys_created_on>
+            <sys_id>1ea99886dbfaa8902443e7148a961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Assignment group</sys_name>
+            <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_gq2_st_remote_task_assignment_group_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-11 03:13:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>remote_task.endpoint</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 18:12:40</sys_created_on>
+        <sys_id>4cdd9eb5db76a8902443e7148a9619fd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>remote_task.endpoint</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ui_policy_action_4cdd9eb5db76a8902443e7148a9619fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 03:18:57</sys_updated_on>
+        <table>x_snc_gq2_task</table>
+        <ui_policy display_value="Always Hide">3b5599e5db7668902443e7148a9619b7</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</application>
+        <file_path/>
+        <instance_id>63489765db7633403050ac44d49619d5</instance_id>
+        <instance_name>serviceconnectaus</instance_name>
+        <name>sys_ui_policy_action_4cdd9eb5db76a8902443e7148a9619fd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>remote_task.endpoint</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-10 18:12:40</sys_created_on><sys_id>4cdd9eb5db76a8902443e7148a9619fd</sys_id><sys_mod_count>1</sys_mod_count><sys_name>remote_task.endpoint</sys_name><sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package><sys_policy/><sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope><sys_update_name>sys_ui_policy_action_4cdd9eb5db76a8902443e7148a9619fd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-11 03:18:57</sys_updated_on><table>x_snc_gq2_task</table><ui_policy display_value="Always Hide">3b5599e5db7668902443e7148a9619b7</ui_policy><visible>false</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1892781726</payload_hash>
+        <record_name>remote_task.endpoint</record_name>
+        <reverted_from/>
+        <source>a5db6ef8db85e0502443e7148a9619c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-11 03:18:57</sys_created_on>
+        <sys_id>2feadcc6dbfaa8902443e7148a9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1781f4b62650000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 03:18:57</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>67eadcc605faa890f12390f0acdf28a9</update_guid>
+        <update_guid_history>67eadcc605faa890f12390f0acdf28a9:-1892781726,11ed5eb51c76a890b51b94c04de35833:1560810376</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-11 03:42:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>634c54149350417bb4b85f710f2b1a89</sys_id>
+        <sys_metadata>4cdd9eb5db76a8902443e7148a9619fd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>remote_task.endpoint</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_parent display_value="Always Hide">3b5599e5db7668902443e7148a9619b7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_scope_delete display_value="">091a9fd979b545d28a39ab3c519bb844</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_4cdd9eb5db76a8902443e7148a9619fd</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_4cdd9eb5db76a8902443e7148a9619fd">2feadcc6dbfaa8902443e7148a9619a9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 03:42:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

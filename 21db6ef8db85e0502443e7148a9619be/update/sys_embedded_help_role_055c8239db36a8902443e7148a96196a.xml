@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_gq2.endpoint_user" name="x_snc_gq2.endpoint_user">b45ccef5db36a8902443e7148a96194a</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 16:55:54</sys_created_on>
+        <sys_id>055c8239db36a8902443e7148a96196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b45ccef5db36a8902443e7148a96194a</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_embedded_help_role_055c8239db36a8902443e7148a96196a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 16:55:54</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

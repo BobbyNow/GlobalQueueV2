@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Global Queue V2">549ba0dadb02e4102443e7148a96191b</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sys_script_vtable">sys_scope=21db6ef8db85e0502443e7148a9619be^active=true^EQ<item display_table="sys_scope" display_value="Global Queue V2" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="21db6ef8db85e0502443e7148a9619be"/>
+            <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Definitions</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_script_vtable</name>
+        <order>900</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/sys_script_vtable.do?sys_id=499bceb5db36a8902443e7148a961974</query>
+        <report/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-11 03:21:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ab7bd40adbfaa8902443e7148a9619e2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Virtual Table Definition</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_app_module_ab7bd40adbfaa8902443e7148a9619e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-24 16:23:25</sys_updated_on>
+        <timeline_page/>
+        <title>Virtual Table Definition</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

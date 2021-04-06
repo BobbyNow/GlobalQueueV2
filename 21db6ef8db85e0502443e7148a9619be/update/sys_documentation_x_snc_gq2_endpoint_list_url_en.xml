@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="list_url" label="List URL" language="en" table="x_snc_gq2_endpoint">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>list_url</element>
+            <help/>
+            <hint/>
+            <label>List URL</label>
+            <language>en</language>
+            <name>x_snc_gq2_endpoint</name>
+            <plural>List URLs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-24 19:16:45</sys_created_on>
+            <sys_id>7cd23a1adb8fa010dc273027f3961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>List URL</sys_name>
+            <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_gq2_endpoint_list_url_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-24 19:16:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

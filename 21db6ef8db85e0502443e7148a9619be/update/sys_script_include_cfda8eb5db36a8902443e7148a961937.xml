@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_gq2.GlobalQueueUtil</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GlobalQueueUtil</name>
+        <script><![CDATA[var GlobalQueueUtil = Class.create();
+GlobalQueueUtil.prototype = {
+    initialize: function(vTable, vSysID) {
+		
+		var json = new global.JSON();
+
+        var encodedQuery = this.getSupersForQuery(vTable);
+//gs.info('encodedQuery: ' + encodedQuery);
+        if (typeof encodedQuery == 'undefined') {
+//gs.info('vTable' + vTable);
+        }
+        var fields = [];
+        var ele = '';
+		var prep = '';
+		var gqDotWalk = '';
+		var attribs = '';
+		var attIndex = '';
+        var gr = new GlideRecord('sys_dictionary');
+        gr.addQuery(encodedQuery);
+        gr.addQuery('element!=collection');
+        gr.addActiveQuery();
+        gr.query();
+        while (gr.next()) {
+            ele = gr.element + '';
+            if (ele != 'x_snc_gq2_instance' && ele != 'sys_domain_path' && ele != 'task_for' && ele != 'sys_class_name' && ele != 'endpoint' && fields.indexOf(ele) == -1) {
+//gs.info('FIELD DATA: ' + ele + ':' + gr.internal_type.toLowerCase() + ':' + gr.reference + ':' + gr.attributes);
+				
+				
+				//Get the alt query dot walk for the field. This allows for dot walking bi-directionaly. e.g. Query task but get incident caller id value to populate the field
+				attribs = gr.attributes + '';
+				if (attribs) {
+//gs.info('attribs: <' + attribs + '>');
+				}
+				attIndex = attribs.indexOf('gqDotWalk');
+				if (attIndex  > -1) {
+					prep = attribs.substring(attIndex+10, attribs.length) + '';
+					if (prep.indexOf(',') > -1) {
+						gqDotWalk = prep.substring(0, prep.indexOf(',')) + ''; 
+					} else {
+						gqDotWalk = prep.substring(0, prep.length) + ''; 
+					}
+				} else {
+					gqDotWalk = '';
+				}
+				
+				if (gqDotWalk) {
+//gs.info('gqDotWalk: <' + gqDotWalk + '>');
+				}
+				
+				
+				
+                fields.push([ele, gr.internal_type.toLowerCase(), gr.reference + '', gqDotWalk]);
+            }
+        }
+
+		//Get local task record using the remote record ssys_id via correlation id field.
+		//Sets epName to the single endpoint this record should be fetched from.
+		var epName = '';
+		var locTsk = new GlideRecord('x_snc_gq2_task');
+		if (vSysID && locTsk.get('correlation_id', vSysID)) {
+			epName = locTsk.x_snc_gq2_instance + '';
+		}
+
+        //Get the remoteTable name, endpoints, credentials for them, and encoded query strings
+        //Remote table we are connecting to
+        var remoteTable;
+        var endpoints = [];
+        var condition;
+
+        var ep = new GlideRecord('x_snc_gq2_m2m_endpoints_table');
+        ep.addQuery('table.vtable', vTable);
+		
+		//If this is a single record only query the single instance the record lives on instead of all endpoints.
+		if (epName) {
+			ep.addQuery('endpoint.name', epName);
+		}
+		
+        ep.query();
+        while (ep.next()) {
+            if (!remoteTable) {
+                remoteTable = ep.table.endpoint_table + '';
+            }
+
+            if (!condition) {
+                condition = this.parseCondition(ep.table.condition + '');
+//gs.info('ep.table.condition: ' + condition);
+            }
+
+            //For accessing single records via references.
+            if (v_query.isGet()) {
+                condition = 'sys_id=' + v_query.getSysId();
+            }
+
+            if (ep.endpoint.local) {
+//gs.info('ep.endpoint.local: ' + ep.endpoint.local);
+                endpoints.push(['local', '', condition, ep.endpoint.name + '']);
+            } else {
+                endpoints.push([ep.endpoint.url + '', ep.endpoint.credential + '', condition, ep.endpoint.name + '']);
+            }
+        }
+
+        var url;
+        var epArr;
+        var auth;
+        var query;
+        var endpointName;
+        for (var i = 0; i < endpoints.length; i++) {
+            epArr = endpoints[i];
+            url = epArr[0] + '';
+            query = epArr[2] + '';
+            endpointName = epArr[3] + '';
+            if (url != 'local') {
+                auth = epArr[1] + '';
+//gs.info('getRemote: ' + url + ':' + remoteTable + ':' + query + ':' + auth + ':' + fields + ':' + endpointName + ':' + vTable);
+//gs.info('getRemote Fields: ' + fields);
+                this.getRemote(url, remoteTable, query, auth, fields, endpointName, vTable);
+            } else {
+                this.getLocal(remoteTable, query, fields, endpointName);
+            }
+        }
+    },
+
+    getRemote: function(url, table, query, auth, fields, endpointName, vTable) {
+        var endpoint = url + '/api/now/table/' + table;
+//gs.info('endpoint: ' + endpoint);
+        var request = new sn_ws.RESTMessageV2();
+        request.setEndpoint(endpoint);
+        request.setHttpMethod('GET');
+        request.setAuthenticationProfile("basic", auth);
+        request.setRequestHeader("Accept", "application/json");
+        request.setQueryParameter('sysparm_query', query);
+        request.setQueryParameter('sysparm_display_value', 'all');
+
+        var arr = [];
+        for (m in fields) {
+            if (fields[m][3] != '') {
+//gs.info('fields[m][3]: ' + '<' + fields[m][3] + '>');
+                arr.push(fields[m][3]);
+            } else if (fields[m][0] != '') {
+//gs.info('fields[m][0]: ' + '<' + fields[m][0] + '>');
+                arr.push(fields[m][0]);
+            }
+
+        }
+//gs.info('getRemote Fields: ' + arr.toString());
+        request.setQueryParameter('sysparm_fields', arr.toString());
+
+
+
+        var response = request.execute();
+        var responseCode = response.getStatusCode();
+        var responseBody = response.getBody();
+//gs.info('responseBody: ' + responseBody + '');
+        var json = new global.JSON();
+        var result = json.decode(responseBody).result;
+
+        var j;
+        var rec = {};
+        var row;
+
+        for (j in result) {
+            row = result[j];
+
+            var k;
+            var fieldArr;
+            var field;
+            var internalType;
+			var attributes;
+            var rowField;
+            for (k in fields) {
+                fieldArr = fields[k];
+                field = fieldArr[0] + '';
+                internalType = fieldArr[1] + '';
+                attributes = fieldArr[3] + '';              
+
+				if (attributes != '') {
+					rowField = attributes + '';
+//gs.info('USING attributes: ' + attributes + ' - Field: ' + field + ' - rowField: ' + rowField);
+				} else {
+					rowField = field + '';
+//gs.info('USING field: ' + ' - Field: ' + field + ' - rowField: ' + rowField);
+				}
+				
+                if (row[rowField]) {
+                    switch (internalType) {
+                        case "string":
+//gs.info('STRING FIELD: ' + ' - Field: ' + field + ' - rowField: ' + rowField);
+                            rec[field] = row[rowField].display_value;
+                            break;
+                        default:
+//gs.info('OTHER FIELDS: ' + ' - Field: ' + field + ' - rowField: ' + rowField);
+                            rec[field] = row[rowField].value;
+                    }
+                }
+            }
+
+			// /now/workspace/agent/record/{{table}}/{{sysId}}
+            rec.endpoint = url + 'now/workspace/agent/record/' + table + '/' + rec.sys_id; 
+            rec.x_snc_gq2_instance = endpointName;
+			
+			//Add the table rows
+            v_table.addRow(rec);
+			
+			this.insertRow(rec);
+
+//gs.info('REC: ' + json.encode(rec));
+        }
+
+    },
+	
+	//Populate the local remote task table.
+	insertRow: function(rec) {
+		var gr = new GlideRecord('x_snc_gq2_task');
+		if (!gr.get('correlation_id', rec.sys_id)) {
+			gr.initialize();
+		}
+		gr.number = rec.number;
+		gr.assigned_to = rec.assigned_to;
+		gr.x_snc_gq2_instance = rec.x_snc_gq2_instance;
+		gr.next_sla_due = rec.next_sla_due;
+		gr.assignment_group = rec.assignment_group;
+		gr.priority = rec.priority;
+		gr.state = rec.state;
+		gr.remote_task = rec.sys_id;
+		gr.correlation_id = rec.sys_id;
+		gr.endpoint = rec.endpoint;
+		gr.short_description = rec.short_description;
+		gr.update();
+	},
+
+	//This method is used to show local records in the list if the local instance is configured as an endpoint.
+    getLocal: function(table, query, fields, endpointName) {
+        var rec = {};
+        var gr = new GlideRecord(table);
+        gr.addQuery(query);
+        gr.query();
+        while (gr.next()) {
+            var l;
+            var fieldArr;
+            var field;
+            var internalType;
+            for (l in fields) {
+                fieldArr = fields[l];
+                field = fieldArr[0] + '';
+                internalType = fieldArr[1] + '';
+                if (gr.isValidField(field)) {
+                    switch (internalType) {
+                        case "string":
+                            rec[field] = gr[field].getDisplayValue();
+                            break;
+                        default:
+                            rec[field] = gr[field];
+                    }
+                }
+            }
+
+            rec.endpoint = table + '.do?sys_id=' + gr.sys_id;
+            rec.x_snc_gq2_instance = endpointName;
+            v_table.addRow(rec);
+        }
+    },
+
+	//This is an example of how to pre-parse and set a dynamic filter. This is needed becasue a single service account makes the queries to other systems.
+    parseCondition: function(tst) {
+        var evaluator = new GlideScopedEvaluator();
+        var dynID;
+        var result;
+        var re = /(DYNAMIC*)[^^]*/g; // 
+        if (tst.match(re)) {
+            var len = tst.match(re).length;
+            for (var i = 0; i < len; i++) {
+                try {
+                    var mt = tst.match(re).pop();
+                    script = mt + '';
+                    dynID = script.substring(7, script.length);
+                    var dyn = new GlideRecord('sys_filter_option_dynamic');
+                    dyn.get(dynID);
+                    result = evaluator.evaluateScript(dyn, 'script');
+                    tst = tst.replace(mt, '=' + result);
+                } finally {
+                    //nothing
+                }
+            }
+        }
+        return tst + '';
+    },
+
+	//Gets all tables this table extends from.
+    getSupersForQuery: function(vTable, arr) {
+        if (typeof arr == 'undefined') {
+            var arr = ['name=' + vTable + ''];
+        }
+        var dbo = new GlideRecord('sys_db_object');
+        dbo.addQuery('name', vTable);
+        dbo.addQuery('super_class!=');
+        dbo.query();
+        if (dbo.next()) {
+            arr.push('^ORname=' + dbo.super_class.name + '');
+            this.getSupersForQuery(dbo.super_class.name + '', arr);
+            return arr.join('');
+        }
+        return arr.join('');
+    },
+
+    type: 'GlobalQueueUtil'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 16:49:30</sys_created_on>
+        <sys_id>cfda8eb5db36a8902443e7148a961937</sys_id>
+        <sys_mod_count>62</sys_mod_count>
+        <sys_name>GlobalQueueUtil</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_script_include_cfda8eb5db36a8902443e7148a961937</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 17:53:03</sys_updated_on>
+    </sys_script_include>
+</record_update>

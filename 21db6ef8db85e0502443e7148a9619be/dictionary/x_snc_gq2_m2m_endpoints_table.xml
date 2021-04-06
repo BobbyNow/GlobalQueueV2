@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Gq2 M2m Endpoints Table" max_length="40" name="x_snc_gq2_m2m_endpoints_table" sizeclass="2" type="collection">
+        <element attributes="encode_utf8=false" label="Endpoint" max_length="32" name="endpoint" reference="x_snc_gq2_endpoint" type="reference"/>
+        <element attributes="encode_utf8=false" label="vTable Admin" max_length="32" name="table" reference="x_snc_gq2_table" type="reference"/>
+        <index name="index">
+            <element name="endpoint"/>
+        </index>
+        <index name="index2">
+            <element name="table"/>
+        </index>
+    </element>
+</database>

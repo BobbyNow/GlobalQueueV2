@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Endpoint" max_length="40" name="x_snc_gq2_endpoint" sizeclass="3" type="collection">
+        <element label="Credential" max_length="32" name="credential" reference="sys_auth_profile_basic" type="reference"/>
+        <element label="Latitude" max_length="40" name="latitude" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="List URL" max_length="1024" name="list_url" type="url"/>
+        <element label="Local" max_length="40" name="local" type="boolean"/>
+        <element label="Longitude" max_length="40" name="longitude" type="float"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="URL" max_length="1024" name="url" type="url"/>
+        <index name="index">
+            <element name="credential"/>
+        </index>
+    </element>
+</database>

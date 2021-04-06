@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Global Queue v2">3320aa53dbeaa0902443e7148a9619b5</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Landing Page</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>landing-page</route_type>
+        <screen_type display_value="Landing Page">eaca4b27db6ae0902443e7148a9619f0</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-03 21:42:31</sys_created_on>
+        <sys_id>87ca4f27db6ae0902443e7148a96194b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Landing Page</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ux_app_route_87ca4f27db6ae0902443e7148a96194b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-08 23:12:58</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</application>
+        <file_path/>
+        <instance_id>63489765db7633403050ac44d49619d5</instance_id>
+        <instance_name>serviceconnectaus</instance_name>
+        <name>sys_ux_app_route_87ca4f27db6ae0902443e7148a96194b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Global Queue v2">3320aa53dbeaa0902443e7148a9619b5</app_config><description/><fields/><icon/><name>Landing Page</name><optional_parameters/><order>0</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>landing-page</route_type><screen_type display_value="Landing Page">eaca4b27db6ae0902443e7148a9619f0</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-03 21:42:31</sys_created_on><sys_id>87ca4f27db6ae0902443e7148a96194b</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Landing Page</sys_name><sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package><sys_policy/><sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope><sys_update_name>sys_ux_app_route_87ca4f27db6ae0902443e7148a96194b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-08 23:12:58</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>-1423145446</payload_hash>
+        <record_name>Landing Page</record_name>
+        <reverted_from/>
+        <source>a5db6ef8db85e0502443e7148a9619c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-08 23:12:58</sys_created_on>
+        <sys_id>387f819ddb3a28902443e7148a96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178141d75980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-08 23:12:58</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>707f819db83a28908c6b72445078822f</update_guid>
+        <update_guid_history>707f819db83a28908c6b72445078822f:-1423145446,de6f495d633a289060dc52c1f15a010b:2129499886,e1bb4367cc6ae090729c7777809da53c:-710878283,1d1b4f279f6ae0903df2f79c536975a2:-1966358635,cbca4f27856ae090c295ad068c57594c:-103856927</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-08 23:15:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>cca17e388d2641bc9a298d4ccfc282c4</sys_id>
+        <sys_metadata>87ca4f27db6ae0902443e7148a96194b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Landing Page</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_scope_delete display_value="">091a9fd979b545d28a39ab3c519bb844</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_87ca4f27db6ae0902443e7148a96194b</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_87ca4f27db6ae0902443e7148a96194b">387f819ddb3a28902443e7148a96192f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-08 23:15:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

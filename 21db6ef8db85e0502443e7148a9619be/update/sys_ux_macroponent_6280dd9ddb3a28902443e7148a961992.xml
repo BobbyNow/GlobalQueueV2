@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_3",
+  "elementLabel" : "Container 3",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Row 1",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "heading_1",
+      "elementLabel" : "Heading 1",
+      "propertyValues" : {
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "My Dashboard",
+            "comment" : ""
+          }
+        },
+        "level" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "header-primary"
+        },
+        "wontWrap" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "hasNoMargin" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "1f6e0643eca7a637e36bd7833549ec9e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Row 1",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "container_5",
+      "elementLabel" : "Container 5",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Row 1",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "data_visualization_5",
+          "elementLabel" : "Data visualization 5",
+          "propertyValues" : {
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "All Open Tasks",
+                "comment" : ""
+              }
+            },
+            "chartType" : {
+              "type" : "JSON_LITERAL",
+              "value" : "single_score"
+            },
+            "dataConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg3MTI5NDE3NQ==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
+            },
+            "styleConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+            },
+            "isRealtime" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "showRealtimeIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "auto"
+            },
+            "border" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "refreshInterval" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "kpiDetailsNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "followFilters" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "hideFiltersInfo" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "filterConfigurations" : {
+              "type" : "STATE_BINDING",
+              "binding" : {
+                "address" : [ "parFilters" ]
+              }
+            },
+            "hideHeader" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "refreshFrequency" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 1",
+          "definition" : {
+            "id" : "67cf18a377c70010cb834a2a6910619a",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "data_visualization_2",
+          "elementLabel" : "Data visualization 2",
+          "propertyValues" : {
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "My Open Tasks",
+                "comment" : ""
+              }
+            },
+            "chartType" : {
+              "type" : "JSON_LITERAL",
+              "value" : "single_score"
+            },
+            "dataConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg2OTk1NjYxMA==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^assigned_toISNOTEMPTY^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"start_time\":\"P3M\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
+            },
+            "styleConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+            },
+            "isRealtime" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "showRealtimeIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "auto"
+            },
+            "border" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "refreshInterval" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "kpiDetailsNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "followFilters" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "hideFiltersInfo" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "filterConfigurations" : {
+              "type" : "STATE_BINDING",
+              "binding" : {
+                "address" : [ "parFilters" ]
+              }
+            },
+            "hideHeader" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "refreshFrequency" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 2",
+          "definition" : {
+            "id" : "67cf18a377c70010cb834a2a6910619a",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "data_visualization_3",
+          "elementLabel" : "Data visualization 3",
+          "propertyValues" : {
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Open Critical Tasks",
+                "comment" : ""
+              }
+            },
+            "chartType" : {
+              "type" : "JSON_LITERAL",
+              "value" : "single_score"
+            },
+            "dataConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg3MDAyMzM3Nw==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^priority=1^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
+            },
+            "styleConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+            },
+            "isRealtime" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "showRealtimeIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "auto"
+            },
+            "border" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "refreshInterval" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "kpiDetailsNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "followFilters" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "hideFiltersInfo" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "filterConfigurations" : {
+              "type" : "STATE_BINDING",
+              "binding" : {
+                "address" : [ "parFilters" ]
+              }
+            },
+            "hideHeader" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "refreshFrequency" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 3",
+          "definition" : {
+            "id" : "67cf18a377c70010cb834a2a6910619a",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "data_visualization_4",
+          "elementLabel" : "Data visualization 4",
+          "propertyValues" : {
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Active Unassigned Tasks",
+                "comment" : ""
+              }
+            },
+            "chartType" : {
+              "type" : "JSON_LITERAL",
+              "value" : "single_score"
+            },
+            "dataConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg3MDEwMDQzMg==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^assigned_toISEMPTY^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
+            },
+            "styleConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+            },
+            "isRealtime" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "showRealtimeIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "auto"
+            },
+            "border" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "refreshInterval" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "kpiDetailsNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "followFilters" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "hideFiltersInfo" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "filterConfigurations" : {
+              "type" : "STATE_BINDING",
+              "binding" : {
+                "address" : [ "parFilters" ]
+              }
+            },
+            "hideHeader" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "refreshFrequency" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 4",
+          "definition" : {
+            "id" : "67cf18a377c70010cb834a2a6910619a",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"grid-area":"column3"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 4","rules":{"grid-area":"column4"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr 1fr 1fr 1fr","grid-template-areas":"\"column1 column2 column3 column4\"","grid-gap":"1rem","height":"100%"},
+            "styles" : null,
+            "templateId" : "2de5350153071010e6bcddeeff7b12b0",
+            "type" : "grid"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%"
+      }
+    }, {
+      "elementId" : "container_6",
+      "elementLabel" : "Container 6",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Row 2",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "data_visualization_8",
+          "elementLabel" : "Data visualization 8",
+          "propertyValues" : {
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Open Tasks by Instance",
+                "comment" : ""
+              }
+            },
+            "chartType" : {
+              "type" : "JSON_LITERAL",
+              "value" : "bar"
+            },
+            "dataConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTkxMzUzMzk5Mg==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^x_snc_gq2_instanceISNOTEMPTY^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"group_by\":\"x_snc_gq2_instance\",\"number_of_groups\":10,\"start_time\":\"P3M\",\"source_type\":\"table\",\"source_id\":\"task\"}]"
+            },
+            "styleConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"xAxisConfig\":{},\"yAxisConfig\":{},\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"},\"hideRegister\":true,\"registerConfig\":{\"legendOnly\":true},\"registerPosition\":\"bottom\"}"
+            },
+            "isRealtime" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "showRealtimeIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "auto"
+            },
+            "border" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "refreshInterval" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "kpiDetailsNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "followFilters" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "hideFiltersInfo" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "filterConfigurations" : {
+              "type" : "STATE_BINDING",
+              "binding" : {
+                "address" : [ "parFilters" ]
+              }
+            },
+            "hideHeader" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "refreshFrequency" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 2",
+          "definition" : {
+            "id" : "67cf18a377c70010cb834a2a6910619a",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "data_visualization_6",
+          "elementLabel" : "Data visualization 6",
+          "propertyValues" : {
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Open Tasks by Customer",
+                "comment" : ""
+              }
+            },
+            "chartType" : {
+              "type" : "JSON_LITERAL",
+              "value" : "donut"
+            },
+            "dataConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTkxMzgwMDE4Mw==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^companyISNOTEMPTY^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"group_by\":\"company\",\"number_of_groups\":10,\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
+            },
+            "styleConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"dataLabelConfig\":{\"showTotal\":false,\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"},\"hideRegister\":false,\"registerConfig\":{\"legendOnly\":true},\"registerPosition\":\"bottom\"}"
+            },
+            "isRealtime" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "showRealtimeIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "auto"
+            },
+            "border" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "refreshInterval" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "kpiDetailsNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "followFilters" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "hideFiltersInfo" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "filterConfigurations" : {
+              "type" : "STATE_BINDING",
+              "binding" : {
+                "address" : [ "parFilters" ]
+              }
+            },
+            "hideHeader" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "refreshFrequency" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 4",
+          "definition" : {
+            "id" : "67cf18a377c70010cb834a2a6910619a",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "data_visualization_7",
+          "elementLabel" : "Data visualization 7",
+          "propertyValues" : {
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Open Tasks by State",
+                "comment" : ""
+              }
+            },
+            "chartType" : {
+              "type" : "JSON_LITERAL",
+              "value" : "horizontal_bar"
+            },
+            "dataConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTkxMzkwNjUzNg==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"group_by\":\"state\",\"number_of_groups\":10,\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
+            },
+            "styleConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"xAxisConfig\":{},\"yAxisConfig\":{},\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"},\"hideRegister\":true,\"registerConfig\":{\"legendOnly\":true},\"registerPosition\":\"bottom\"}"
+            },
+            "isRealtime" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "showRealtimeIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "auto"
+            },
+            "border" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "refreshInterval" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "kpiDetailsNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "followFilters" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "hideFiltersInfo" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "filterConfigurations" : {
+              "type" : "STATE_BINDING",
+              "binding" : {
+                "address" : [ "parFilters" ]
+              }
+            },
+            "hideHeader" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "refreshFrequency" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 3",
+          "definition" : {
+            "id" : "67cf18a377c70010cb834a2a6910619a",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "data_visualization_1",
+          "elementLabel" : "Data visualization 1",
+          "propertyValues" : {
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Breaching SLA This Week",
+                "comment" : ""
+              }
+            },
+            "chartType" : {
+              "type" : "JSON_LITERAL",
+              "value" : "semi_donut"
+            },
+            "dataConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg2OTg3Mjc1Mg==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^x_snc_gq2_next_sla_due&lt;1970-01-08 00:00:00^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"group_by\":\"x_snc_gq2_next_sla_due\",\"number_of_groups\":\"ALL\",\"start_time\":\"P3M\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
+            },
+            "styleConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"dataLabelConfig\":{\"showTotal\":false,\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"},\"hideRegister\":false,\"registerConfig\":{\"legendOnly\":true},\"registerPosition\":\"bottom\"}"
+            },
+            "isRealtime" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "showRealtimeIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "auto"
+            },
+            "border" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "refreshInterval" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "kpiDetailsNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "followFilters" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "hideFiltersInfo" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "filterConfigurations" : {
+              "type" : "STATE_BINDING",
+              "binding" : {
+                "address" : [ "parFilters" ]
+              }
+            },
+            "hideHeader" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "refreshFrequency" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 1",
+          "definition" : {
+            "id" : "67cf18a377c70010cb834a2a6910619a",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"grid-area":"column3"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 4","rules":{"grid-area":"column4"},"styles":{"display":"flex","flex-direction":"column"}}],
+            "root" : null,
+            "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr 1fr 1fr 1fr","grid-template-areas":"\"column1 column2 column3 column4\"","grid-gap":"1rem","height":"100%"},
+            "styles" : null,
+            "templateId" : "2de5350153071010e6bcddeeff7b12b0",
+            "type" : "grid"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "width" : "100%"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Row 1","rules":{"grid-area":"row1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Row 2","rules":{"grid-area":"row2"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"1fr 1fr","grid-template-columns":"100%","grid-template-areas":"\"row1\" \"row2\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "f348f94153071010e6bcddeeff7b12dd",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "list__simple_1",
+  "elementLabel" : "List - Simple 1",
+  "propertyValues" : {
+    "listTitle" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "message" : "Top 5 Must Do",
+        "comment" : ""
+      }
+    },
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "task"
+    },
+    "query" : {
+      "type" : "JSON_LITERAL",
+      "value" : "active=true^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task"
+    },
+    "columns" : {
+      "type" : "JSON_LITERAL",
+      "value" : "number,assigned_to,assignment_group,x_snc_gq2_next_sla_due,short_description,x_snc_gq2_instance"
+    },
+    "limit" : {
+      "type" : "JSON_LITERAL",
+      "value" : 5
+    },
+    "maxColumns" : {
+      "type" : "JSON_LITERAL",
+      "value" : "7"
+    },
+    "page" : {
+      "type" : "JSON_LITERAL",
+      "value" : 1
+    },
+    "highlightedValueConfigId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "hideHighlightedValues" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideHeader" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideTitle" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideTitleRowCount" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideRefreshButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideLastRefreshedText" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideLinks" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideViewAll" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideCellFilter" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideCheckboxHover" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideColumnFiltering" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideColumnGrouping" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideColumnSorting" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideFilterPanel" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideFirstPage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideLastPage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideLimitSelector" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideMenuButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideMultiEdit" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideDeclarativeActions" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideNextPage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePages" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePagination" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hidePanel" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hidePanelAdvanced" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePanelConditionDelete" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePanelFooter" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePanelRestore" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hidePreviousPage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideQuickEdit" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideRange" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideRowCount" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideRowSelector" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideSelectAll" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "hideEmptyStateImage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideDBViews" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideUnnecessaryRowSelectors" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "wordWrap" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "maxCharLimit" : {
+      "type" : "JSON_LITERAL",
+      "value" : 4000
+    },
+    "refreshRequested" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "recordSelectedTable" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "recordSelectedSysId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "recordSelectedQuery" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "recordSelectedView" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Row 2",
+  "definition" : {
+    "id" : "2b1c080881e05dc63b917044290b233f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Row 1","rules":{"grid-area":"row1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Row 2","rules":{"grid-area":"row2"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"1fr 1fr","grid-template-columns":"100%","grid-template-areas":"\"row1\" \"row2\"","grid-gap":"1rem","min-height":"400px","height":"100%"},
+    "styles" : null,
+    "templateId" : "1afa9dc153c31010e6bcddeeff7b1280",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Global Queue</name>
+        <props>[ ]</props>
+        <required_translations>[{"message":"All Open Tasks","comment":""},{"message":"Open Tasks by Instance","comment":""},{"message":"Open Tasks by Customer","comment":""},{"message":"Active Unassigned Tasks","comment":""},{"message":"My Open Tasks","comment":""},{"message":"Open Tasks by State","comment":""},{"message":"Open Critical Tasks","comment":""},{"message":"Top 5 Must Do","comment":""},{"message":"My Dashboard","comment":""},{"message":"Breaching SLA This Week","comment":""}]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-08 23:17:44</sys_created_on>
+        <sys_id>6280dd9ddb3a28902443e7148a961992</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Global Queue</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ux_macroponent_6280dd9ddb3a28902443e7148a961992</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 17:50:55</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

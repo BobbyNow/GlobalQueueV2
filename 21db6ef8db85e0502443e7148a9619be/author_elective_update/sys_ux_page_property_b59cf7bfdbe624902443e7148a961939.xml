@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Toolbar Configuration</description>
+        <name>chrome_toolbar</name>
+        <page display_value="CSM/FSM Configurable Workspace">c4e321a3530210102c30ddeeff7b12f6</page>
+        <required_translations>[{"message":"List","comment":""},{"message":"Home","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-04 19:58:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b59cf7bfdbe624902443e7148a961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ux_page_property_b59cf7bfdbe624902443e7148a961939</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 19:58:32</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_gq2.c4e321a3530210102c30ddeeff7b12f6.root.chrome_toolbar</unique_name>
+        <value>[
+  {
+    "id": "home",
+    "label": {
+      "translatable": true,
+      "message": "Home"
+    },
+    "icon": "home-outline",
+    "viewportInfo": {},
+    "routeInfo": {
+      "route": "home"
+    },
+    "group": "top",
+    "order": 100,
+    "badge": {},
+    "presence": {},
+    "availability": {}
+  },
+  {
+    "id": "list",
+    "label": {
+      "translatable": true,
+      "message": "List"
+    },
+    "icon": "list-outline",
+    "viewportInfo": {},
+    "routeInfo": {
+      "route": "list",
+      "optionalParams": {
+        "configId": "0b62b8ba77d650102c30945caa106138"
+      }
+    },
+    "group": "top",
+    "order": 200,
+    "badge":{},
+    "presence": {},
+    "availability": {}
+  }
+]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=b59cf7bfdbe624902443e7148a961939"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</application>
+        <file_path/>
+        <instance_id>63489765db7633403050ac44d49619d5</instance_id>
+        <instance_name>serviceconnectaus</instance_name>
+        <name>sys_ux_page_property_b59cf7bfdbe624902443e7148a961939</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Toolbar Configuration</description><name>chrome_toolbar</name><page display_value="CSM/FSM Configurable Workspace">c4e321a3530210102c30ddeeff7b12f6</page><required_translations>[{"message":"List","comment":""},{"message":"Home","comment":""}]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-04 19:58:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b59cf7bfdbe624902443e7148a961939</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_toolbar</sys_name><sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package><sys_policy/><sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope><sys_update_name>sys_ux_page_property_b59cf7bfdbe624902443e7148a961939</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-04 19:58:32</sys_updated_on><type>json</type><unique_name>x_snc_gq2.c4e321a3530210102c30ddeeff7b12f6.root.chrome_toolbar</unique_name><value>[
+  {
+    "id": "home",
+    "label": {
+      "translatable": true,
+      "message": "Home"
+    },
+    "icon": "home-outline",
+    "viewportInfo": {},
+    "routeInfo": {
+      "route": "home"
+    },
+    "group": "top",
+    "order": 100,
+    "badge": {},
+    "presence": {},
+    "availability": {}
+  },
+  {
+    "id": "list",
+    "label": {
+      "translatable": true,
+      "message": "List"
+    },
+    "icon": "list-outline",
+    "viewportInfo": {},
+    "routeInfo": {
+      "route": "list",
+      "optionalParams": {
+        "configId": "0b62b8ba77d650102c30945caa106138"
+      }
+    },
+    "group": "top",
+    "order": 200,
+    "badge":{},
+    "presence": {},
+    "availability": {}
+  }
+]</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=b59cf7bfdbe624902443e7148a961939"/></record_update>]]></payload>
+        <payload_hash>-1760732897</payload_hash>
+        <record_name>chrome_toolbar</record_name>
+        <reverted_from/>
+        <source>a5db6ef8db85e0502443e7148a9619c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-04 19:58:32</sys_created_on>
+        <sys_id>719cf7bfdbe624902443e7148a96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177fed204e30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 19:58:32</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>b99cf7bf99e624900f8e3c9e56d8e93a</update_guid>
+        <update_guid_history>b99cf7bf99e624900f8e3c9e56d8e93a:-1760732897</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-08 23:38:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>15643c4af0b94a0e8517b706e97fb2a4</sys_id>
+        <sys_metadata>b59cf7bfdbe624902443e7148a961939</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_toolbar</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_scope_delete display_value="">091a9fd979b545d28a39ab3c519bb844</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_b59cf7bfdbe624902443e7148a961939</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_b59cf7bfdbe624902443e7148a961939">719cf7bfdbe624902443e7148a96193b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-08 23:38:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

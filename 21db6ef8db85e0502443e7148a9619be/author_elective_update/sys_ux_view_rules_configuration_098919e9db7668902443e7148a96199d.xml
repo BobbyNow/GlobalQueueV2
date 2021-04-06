@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_view_rules_configuration">
+    <sys_ux_view_rules_configuration action="DELETE">
+        <active>true</active>
+        <description/>
+        <name>Global Queue User</name>
+        <sys_class_name>sys_ux_view_rules_configuration</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-09 18:35:35</sys_created_on>
+        <sys_id>098919e9db7668902443e7148a96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Global Queue User</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ux_view_rules_configuration_098919e9db7668902443e7148a96199d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-09 18:35:35</sys_updated_on>
+    </sys_ux_view_rules_configuration>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</application>
+        <file_path/>
+        <instance_id>63489765db7633403050ac44d49619d5</instance_id>
+        <instance_name>serviceconnectaus</instance_name>
+        <name>sys_ux_view_rules_configuration_098919e9db7668902443e7148a96199d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_view_rules_configuration"><sys_ux_view_rules_configuration action="INSERT_OR_UPDATE"><active>true</active><description/><name>Global Queue User</name><sys_class_name>sys_ux_view_rules_configuration</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-09 18:35:35</sys_created_on><sys_id>098919e9db7668902443e7148a96199d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Global Queue User</sys_name><sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package><sys_policy/><sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope><sys_update_name>sys_ux_view_rules_configuration_098919e9db7668902443e7148a96199d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-09 18:35:35</sys_updated_on></sys_ux_view_rules_configuration></record_update>]]></payload>
+        <payload_hash>1685476182</payload_hash>
+        <record_name>Global Queue User</record_name>
+        <reverted_from/>
+        <source>a5db6ef8db85e0502443e7148a9619c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-09 18:35:35</sys_created_on>
+        <sys_id>5f89d9e9db7668902443e7148a961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1781845ddc90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-09 18:35:35</sys_updated_on>
+        <type>UX View Rules Configuration</type>
+        <update_guid>9789d9e9367668902effdcdeae832048</update_guid>
+        <update_guid_history>9789d9e9367668902effdcdeae832048:1685476182</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-09 18:36:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_view_rules_configuration">sys_ux_view_rules_configuration</sys_db_object>
+        <sys_id>0eb640ffe6a2489680e950ec5984cc19</sys_id>
+        <sys_metadata>098919e9db7668902443e7148a96199d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Global Queue User</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_scope_delete display_value="">091a9fd979b545d28a39ab3c519bb844</sys_scope_delete>
+        <sys_update_name>sys_ux_view_rules_configuration_098919e9db7668902443e7148a96199d</sys_update_name>
+        <sys_update_version display_value="sys_ux_view_rules_configuration_098919e9db7668902443e7148a96199d">5f89d9e9db7668902443e7148a961948</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-09 18:36:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>declarative_action</action_type>
+        <active>true</active>
+        <declarative_action display_value="Test Open New Tab">79ab60e5dbf268902443e7148a9619f2</declarative_action>
+        <description/>
+        <name>Test Record New Tab</name>
+        <specificity>20</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-09 15:20:08</sys_created_on>
+        <sys_id>c8bc2029dbf268902443e7148a961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Record New Tab</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ux_form_action_c8bc2029dbf268902443e7148a961911</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-09 15:20:08</sys_updated_on>
+        <table>x_snc_gq2_task</table>
+        <ui_action/>
+    </sys_ux_form_action>
+</record_update>

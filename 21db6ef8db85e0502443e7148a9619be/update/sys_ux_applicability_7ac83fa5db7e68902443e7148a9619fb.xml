@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_snc_gq2.Global Queue Users</api_name>
+        <description/>
+        <name>Global Queue Users</name>
+        <roles name="x_snc_gq2.global_queue_user">c49b249adb02e4102443e7148a9619f2</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 06:11:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ac83fa5db7e68902443e7148a9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Global Queue Users</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ux_applicability_7ac83fa5db7e68902443e7148a9619fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 06:11:43</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

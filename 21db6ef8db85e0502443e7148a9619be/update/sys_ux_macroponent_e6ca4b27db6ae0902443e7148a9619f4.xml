@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "modalContainerViewport",
+  "elementLabel" : "Modal Container (Viewport)",
+  "propertyValues" : {
+    "displayOptions" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "displayOptions" ]
+      }
+    },
+    "bare" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "bare" ]
+      }
+    },
+    "contents" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "contents" ]
+      }
+    },
+    "dynamicTabData" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "defaultRoute" : {
+      "type" : "JSON_LITERAL",
+      "value" : "list_modal_page"
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "disableDismiss" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "61c315e9ccb8970546c30f3e2da41a32",
+    "type" : "MACROPONENT_VIEWPORT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "container_2",
+  "elementLabel" : "Container 2",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Row 1",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "data_visualization_1",
+      "elementLabel" : "Data visualization 1",
+      "propertyValues" : {
+        "label" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "chartType" : {
+          "type" : "JSON_LITERAL",
+          "value" : "single_score"
+        },
+        "dataConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "[{\"__viz_config_id\":\"dGFibGV4X3NuY19ncTJfdGFzazE2MTUyMjc4MzgxNzU=\",\"__viz_config_label\":\"Global Queue\",\"aggregate_function\":\"COUNT\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"x_snc_gq2_task\"}]"
+        },
+        "styleConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+        },
+        "isRealtime" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showRealtimeIndicator" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "auto"
+        },
+        "border" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "refreshInterval" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "kpiDetailsNavigation" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "followFilters" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideFiltersInfo" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "filterConfigurations" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "parFilters" ]
+          }
+        },
+        "hideHeader" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "refreshFrequency" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 1",
+      "definition" : {
+        "id" : "67cf18a377c70010cb834a2a6910619a",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "data_visualization_3",
+      "elementLabel" : "Data visualization 3",
+      "propertyValues" : {
+        "label" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "chartType" : {
+          "type" : "JSON_LITERAL",
+          "value" : "single_score"
+        },
+        "dataConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "[{\"__viz_config_id\":\"dGFibGV4X3NuY19ncTJfdGFzazE2MTUyNDUxOTgxOTg=\",\"__viz_config_label\":\"Global Queue\",\"aggregate_function\":\"COUNT\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"x_snc_gq2_task\"}]"
+        },
+        "styleConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+        },
+        "isRealtime" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showRealtimeIndicator" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "auto"
+        },
+        "border" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "refreshInterval" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "kpiDetailsNavigation" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "followFilters" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideFiltersInfo" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "filterConfigurations" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "parFilters" ]
+          }
+        },
+        "hideHeader" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "refreshFrequency" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 2",
+      "definition" : {
+        "id" : "67cf18a377c70010cb834a2a6910619a",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "data_visualization_4",
+      "elementLabel" : "Data visualization 4",
+      "propertyValues" : {
+        "label" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "chartType" : {
+          "type" : "JSON_LITERAL",
+          "value" : "single_score"
+        },
+        "dataConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "[{\"__viz_config_id\":\"dGFibGV4X3NuY19ncTJfdGFzazE2MTUyNDUyMDgwNTU=\",\"__viz_config_label\":\"Global Queue\",\"aggregate_function\":\"COUNT\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"x_snc_gq2_task\"}]"
+        },
+        "styleConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+        },
+        "isRealtime" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showRealtimeIndicator" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "auto"
+        },
+        "border" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "refreshInterval" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "kpiDetailsNavigation" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "followFilters" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideFiltersInfo" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "filterConfigurations" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "parFilters" ]
+          }
+        },
+        "hideHeader" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "refreshFrequency" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 3",
+      "definition" : {
+        "id" : "67cf18a377c70010cb834a2a6910619a",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "data_visualization_5",
+      "elementLabel" : "Data visualization 5",
+      "propertyValues" : {
+        "label" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "chartType" : {
+          "type" : "JSON_LITERAL",
+          "value" : "single_score"
+        },
+        "dataConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "[{\"__viz_config_id\":\"dGFibGV4X3NuY19ncTJfdGFzazE2MTUyNDUyMTQ3MTY=\",\"__viz_config_label\":\"Global Queue\",\"aggregate_function\":\"COUNT\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"x_snc_gq2_task\"}]"
+        },
+        "styleConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+        },
+        "isRealtime" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showRealtimeIndicator" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "auto"
+        },
+        "border" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "refreshInterval" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "kpiDetailsNavigation" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "followFilters" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideFiltersInfo" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "filterConfigurations" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "parFilters" ]
+          }
+        },
+        "hideHeader" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "refreshFrequency" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 4",
+      "definition" : {
+        "id" : "67cf18a377c70010cb834a2a6910619a",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"grid-area":"column3"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 4","rules":{"grid-area":"column4"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr 1fr 1fr 1fr","grid-template-areas":"\"column1 column2 column3 column4\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "2de5350153071010e6bcddeeff7b12b0",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "container_3",
+  "elementLabel" : "Container 3",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Row 2",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "data_visualization_2",
+      "elementLabel" : "Data visualization 2",
+      "propertyValues" : {
+        "label" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "chartType" : {
+          "type" : "JSON_LITERAL",
+          "value" : "single_score"
+        },
+        "dataConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "[{\"__viz_config_id\":\"dGFibGV4X3NuY19ncTJfdGFzazE2MTUyNDUyMjIzMTE=\",\"__viz_config_label\":\"Global Queue\",\"aggregate_function\":\"COUNT\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"x_snc_gq2_task\"}]"
+        },
+        "styleConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+        },
+        "isRealtime" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showRealtimeIndicator" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "auto"
+        },
+        "border" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "refreshInterval" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "kpiDetailsNavigation" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "followFilters" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideFiltersInfo" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "filterConfigurations" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "parFilters" ]
+          }
+        },
+        "hideHeader" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "refreshFrequency" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 1",
+      "definition" : {
+        "id" : "67cf18a377c70010cb834a2a6910619a",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "data_visualization_6",
+      "elementLabel" : "Data visualization 6",
+      "propertyValues" : {
+        "label" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "chartType" : {
+          "type" : "JSON_LITERAL",
+          "value" : "single_score"
+        },
+        "dataConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "[{\"__viz_config_id\":\"dGFibGV4X3NuY19ncTJfdGFzazE2MTUyNDUyMjk4NDE=\",\"__viz_config_label\":\"Global Queue\",\"aggregate_function\":\"COUNT\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"x_snc_gq2_task\"}]"
+        },
+        "styleConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+        },
+        "isRealtime" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showRealtimeIndicator" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "auto"
+        },
+        "border" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "refreshInterval" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "kpiDetailsNavigation" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "followFilters" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideFiltersInfo" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "filterConfigurations" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "parFilters" ]
+          }
+        },
+        "hideHeader" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "refreshFrequency" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 2",
+      "definition" : {
+        "id" : "67cf18a377c70010cb834a2a6910619a",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "data_visualization_7",
+      "elementLabel" : "Data visualization 7",
+      "propertyValues" : {
+        "label" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "chartType" : {
+          "type" : "JSON_LITERAL",
+          "value" : "single_score"
+        },
+        "dataConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "[{\"__viz_config_id\":\"dGFibGV4X3NuY19ncTJfdGFzazE2MTUyNDUyMzYyNzI=\",\"__viz_config_label\":\"Global Queue\",\"aggregate_function\":\"COUNT\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"x_snc_gq2_task\"}]"
+        },
+        "styleConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+        },
+        "isRealtime" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showRealtimeIndicator" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "auto"
+        },
+        "border" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "refreshInterval" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "kpiDetailsNavigation" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "followFilters" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideFiltersInfo" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "filterConfigurations" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "parFilters" ]
+          }
+        },
+        "hideHeader" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "refreshFrequency" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 3",
+      "definition" : {
+        "id" : "67cf18a377c70010cb834a2a6910619a",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "data_visualization_8",
+      "elementLabel" : "Data visualization 8",
+      "propertyValues" : {
+        "label" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "chartType" : {
+          "type" : "JSON_LITERAL",
+          "value" : "single_score"
+        },
+        "dataConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "[{\"__viz_config_id\":\"dGFibGV4X3NuY19ncTJfdGFzazE2MTUyNDUyNDMxNDU=\",\"__viz_config_label\":\"Global Queue\",\"aggregate_function\":\"COUNT\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"x_snc_gq2_task\"}]"
+        },
+        "styleConfigurations" : {
+          "type" : "JSON_LITERAL",
+          "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"}}"
+        },
+        "isRealtime" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showRealtimeIndicator" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "auto"
+        },
+        "border" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "refreshInterval" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "kpiDetailsNavigation" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "followFilters" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "hideFiltersInfo" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "filterConfigurations" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "parFilters" ]
+          }
+        },
+        "hideHeader" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "refreshFrequency" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 4",
+      "definition" : {
+        "id" : "67cf18a377c70010cb834a2a6910619a",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"grid-area":"column3"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 4","rules":{"grid-area":"column4"},"styles":{"display":"flex","flex-direction":"column"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr 1fr 1fr 1fr","grid-template-areas":"\"column1 column2 column3 column4\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "2de5350153071010e6bcddeeff7b12b0",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "367f89e30b102010a8b1c96237673a85",
+    "type" : "COMPOSITE"
+  },
+  "elementId" : "dynamic_routing_list",
+  "elementLabel" : "Dynamic Routing List",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "routeConfigId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "routeConfigId" ],
+        "category" : "app"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "e56aae0873231010a0a79329faf6a768",
+    "type" : "CLIENT_STATE"
+  },
+  "elementId" : "list_navigation_information",
+  "elementLabel" : "List Navigation Information",
+  "eventMappings" : [ {
+    "eventMappingId" : "ckgcrggcocaaaabbfddghhaeeaaypsffvff",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_record_list_con.SN_LIST_NAVIGATION_CLIENT#PROPERTY_CHANGED",
+    "sourceEventDefinition" : {
+      "apiName" : "sn_record_list_con.SN_LIST_NAVIGATION_CLIENT#PROPERTY_CHANGED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "faca4f27db6ae0902443e7148a96192c"
+      },
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckgcrggcodaaaabbgddghhacaaaitmffo",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  }, {
+    "eventMappingId" : "ckgcrffeeqcaaaabbdddghhamdzpeqmdd",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_record_list_con.SN_LIST_NAVIGATION_CLIENT#PARAMS_UPDATE_REQUESTED",
+    "sourceEventDefinition" : {
+      "apiName" : "sn_record_list_con.SN_LIST_NAVIGATION_CLIENT#PARAMS_UPDATE_REQUESTED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "sn_uib_base_aw.CONTENT_UPDATED_RELAY_2c08111d0fc21010036a83fa68767ef6",
+        "payload" : {
+          "type" : "CLIENT_TRANSFORM_SCRIPT",
+          "script" : {
+            "apiVersion" : "1.0.0",
+            "inlineScript" : "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n* @param {any} params.imports\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n    params: {\n\t\t\ttinyId: event.payload.tinyId,\n\t\t\tlistId: event.payload.listId\n\t\t}\n  };\n}"
+          }
+        },
+        "sysId" : "b408951d0fc21010036a83fa68767e21"
+      },
+      "operation" : null,
+      "targetId" : "ckgcrffeeqeaaaabbeddghhaspqcnhml",
+      "type" : "EVENT"
+    } ]
+  } ],
+  "inputValues" : {
+    "applicationId" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1122345"
+    },
+    "tinyUrlId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "tinyId" ],
+        "category" : "props"
+      }
+    },
+    "listUrlId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "listId" ],
+        "category" : "props"
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events>762ccbe3db6ae0902443e7148a961967,5dd4f4050f121010036a83fa68767eb6,f008951d0fc21010036a83fa68767e1c,b408951d0fc21010036a83fa68767e21,7008951d0fc21010036a83fa68767e37</dispatched_events>
+        <events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events>f7d18e2cb7735010cd8af8e32e11a90b,8c1321d50f1310107d20409dc4767e52,2640a5150f1310107d20409dc4767e8a</handled_events>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+  "MACROPONENT_PROPERTY_CHANGED" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "3eca4f27db6ae0902443e7148a961924"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "ckhnzdnaaaaaaaasddhiiggsiibhabuii",
+    "type" : "CLIENT_SCRIPT"
+  }, {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "a6ca4f27db6ae0902443e7148a961900"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "ckiggyggbwhhaaaaaaoddgiihhqddbeehhsngg",
+    "type" : "CLIENT_SCRIPT"
+  } ],
+  "sn_uib_base_aw.LIST#NAV_ITEM_SELECTED" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "x_snc_gq2.NAV_ITEM_SELECTED_RELAY_e6ca4b27db6ae0902443e7148a9619f4",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "route" ]
+            }
+          },
+          "fields" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "fields" ]
+            }
+          },
+          "params" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "params" ]
+            }
+          },
+          "redirect" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "redirect" ]
+            }
+          },
+          "passiveNavigation" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "passiveNavigation" ]
+            }
+          },
+          "title" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "title" ]
+            }
+          },
+          "multiInstField" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "multiInstField" ]
+            }
+          },
+          "targetRoute" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "targetRoute" ]
+            }
+          },
+          "external" : {
+            "type" : "EVENT_PAYLOAD_BINDING",
+            "binding" : {
+              "address" : [ "external" ]
+            }
+          }
+        }
+      },
+      "sysId" : "762ccbe3db6ae0902443e7148a961967"
+    },
+    "operation" : null,
+    "targetId" : "ckgcbbbvpjaaaaaagddghhanwwsqhsk",
+    "type" : "EVENT"
+  } ],
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "a6ca4f27db6ae0902443e7148a961900"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "ckiggyggccuhhaaaaaanddgiihhddhhmlpiilk",
+    "type" : "CLIENT_SCRIPT"
+  } ],
+  "sn_uib_base_aw.LIST#OPEN_MODAL" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "6aca4f27db6ae0902443e7148a961912"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "ckgcbbbvpjaaaaaafddghhaaaggwhqbbnx",
+    "type" : "CLIENT_SCRIPT"
+  } ]
+}</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Row 1","rules":{"grid-area":"row1"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Row 2","rules":{"grid-area":"row2"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"1fr 1fr","grid-template-columns":"100%","grid-template-areas":"\"row1\" \"row2\"","grid-gap":"1rem","min-height":"400px","height":"100%"},
+    "styles" : null,
+    "templateId" : "1afa9dc153c31010e6bcddeeff7b1280",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>List</name>
+        <props>[ {
+  "name" : "listid",
+  "label" : "listid",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "tinyId",
+  "label" : "tinyId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false
+}, {
+  "name" : "listId",
+  "label" : "listId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "",
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "userPrefs",
+  "label" : "user preferences",
+  "fieldType" : "json",
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "List of all user preferences",
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "activityLogs",
+  "label" : "activityLogs",
+  "fieldType" : "json",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : null,
+  "readOnly" : false,
+  "selectable" : false
+} ]</props>
+        <required_translations>[]</required_translations>
+        <root_component/>
+        <root_component_config>{
+  "bare" : true
+}</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "contents",
+  "label" : "contents",
+  "fieldType" : "json",
+  "valueType" : "json",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : { }
+  }
+}, {
+  "name" : "displayOptions",
+  "label" : "displayOptions",
+  "fieldType" : "json",
+  "valueType" : "json",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : { }
+  }
+}, {
+  "name" : "bare",
+  "label" : "bare",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  }
+}, {
+  "name" : "CRUD",
+  "label" : "CRUD",
+  "fieldType" : "json",
+  "valueType" : "json",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "listMenuOpen",
+  "label" : "listMenuOpen",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  }
+}, {
+  "name" : "tinyId",
+  "label" : "tinyId",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "listId",
+  "label" : "listId",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "listRefresh",
+  "label" : "listRefresh",
+  "fieldType" : "json",
+  "valueType" : "json",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : { }
+  }
+}, {
+  "name" : "wrapListText",
+  "label" : "wrapListText",
+  "fieldType" : "boolean",
+  "valueType" : "boolean",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
+}, {
+  "name" : "url",
+  "label" : "url",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-03 21:42:28</sys_created_on>
+        <sys_id>e6ca4b27db6ae0902443e7148a9619f4</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>List</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ux_macroponent_e6ca4b27db6ae0902443e7148a9619f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-08 23:15:16</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

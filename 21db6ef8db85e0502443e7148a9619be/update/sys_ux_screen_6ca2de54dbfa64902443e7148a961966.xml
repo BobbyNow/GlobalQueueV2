@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config/>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="custom_sidebar">75901614dbfa64902443e7148a96198c</macroponent>
+        <macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false,
+  "views" : "workspace",
+  "selectedTabIndex" : 0
+}</macroponent_config>
+        <name>Custom Sidebar Screen</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">558adc930f0210107d20409dc4767e84</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <screen_condition/>
+        <screen_type/>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-06 01:35:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6ca2de54dbfa64902443e7148a961966</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Custom Sidebar Screen</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ux_screen_6ca2de54dbfa64902443e7148a961966</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-06 02:27:11</sys_updated_on>
+    </sys_ux_screen>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-02 16:23:02</sys_created_on>
+        <sys_id>249ba0dadb02e4102443e7148a961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_gq2_task.x_snc_gq2.global_queue_user</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_security_acl display_value="x_snc_gq2_task">649ba0dadb02e4102443e7148a96193d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_249ba0dadb02e4102443e7148a961940</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-02 16:23:02</sys_updated_on>
+        <sys_user_role display_value="x_snc_gq2.global_queue_user" name="x_snc_gq2.global_queue_user">c49b249adb02e4102443e7148a9619f2</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</application>
+        <file_path/>
+        <instance_id>63489765db7633403050ac44d49619d5</instance_id>
+        <instance_name>serviceconnectaus</instance_name>
+        <name>sys_security_acl_role_249ba0dadb02e4102443e7148a961940</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-02 16:23:02</sys_created_on><sys_id>249ba0dadb02e4102443e7148a961940</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_gq2_task.x_snc_gq2.global_queue_user</sys_name><sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package><sys_policy/><sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope><sys_security_acl display_value="x_snc_gq2_task">649ba0dadb02e4102443e7148a96193d</sys_security_acl><sys_update_name>sys_security_acl_role_249ba0dadb02e4102443e7148a961940</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-02 16:23:02</sys_updated_on><sys_user_role display_value="x_snc_gq2.global_queue_user" name="x_snc_gq2.global_queue_user">c49b249adb02e4102443e7148a9619f2</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-160237155</payload_hash>
+        <record_name>x_snc_gq2_task.x_snc_gq2.global_queue_user</record_name>
+        <reverted_from/>
+        <source>a5db6ef8db85e0502443e7148a9619c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-02 16:23:02</sys_created_on>
+        <sys_id>ac9ba0dadb02e4102443e7148a961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177638df0b80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-02 16:23:02</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>e49ba0da4a02e4103feaefed43c3c342</update_guid>
+        <update_guid_history>e49ba0da4a02e4103feaefed43c3c342:-160237155</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_gq2_task.x_snc_gq2.global_queue_user">551dc186dbbea8902443e7148a961909</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-11 06:58:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>2604e1a8a860427a8f87d4c85ba4b2c4</sys_id>
+        <sys_metadata>249ba0dadb02e4102443e7148a961940</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_gq2_task.x_snc_gq2.global_queue_user</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_scope_delete display_value="">091a9fd979b545d28a39ab3c519bb844</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_249ba0dadb02e4102443e7148a961940</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_249ba0dadb02e4102443e7148a961940">ac9ba0dadb02e4102443e7148a961942</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 06:58:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

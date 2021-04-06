@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <name>Global Queue V2 Task</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+    var gqu = new GlobalQueueUtil('x_snc_gq2_st_remote_task', v_query.getSysId());
+})(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 16:52:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>499bceb5db36a8902443e7148a961974</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Global Queue V2 Task</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_script_vtable_499bceb5db36a8902443e7148a961974</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-16 04:07:41</sys_updated_on>
+        <table>x_snc_gq2_st_remote_task</table>
+    </sys_script_vtable>
+</record_update>

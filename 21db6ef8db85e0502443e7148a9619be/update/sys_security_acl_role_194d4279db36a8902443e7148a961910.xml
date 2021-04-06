@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 17:00:01</sys_created_on>
+        <sys_id>194d4279db36a8902443e7148a961910</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_gq2_table.x_snc_gq2.vtable_admin_user</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_security_acl display_value="x_snc_gq2_table">594d4279db36a8902443e7148a96190d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_194d4279db36a8902443e7148a961910</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 17:00:01</sys_updated_on>
+        <sys_user_role display_value="x_snc_gq2.vtable_admin_user" name="x_snc_gq2.vtable_admin_user">c94d0279db36a8902443e7148a961943</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

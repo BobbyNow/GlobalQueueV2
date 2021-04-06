@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Header Config</description>
+        <name>chrome_header</name>
+        <page display_value="Global Queue">2e80ee53dbeaa0902443e7148a9619aa</page>
+        <required_translations>[{"message":"Display Preferences","comment":""},{"message":"Show sidebar","comment":""},{"message":"Show ribbon","comment":""},{"message":"Notifications","comment":""},{"message":"Show Banners","comment":""},{"message":"Logout","comment":""},{"message":"Configure Workspace","comment":""},{"message":"Show Badge Count","comment":""},{"message":"UserMenu","comment":""},{"message":"Wrap list text","comment":""},{"message":"Settings","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-04 19:53:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>156b777fdbe624902443e7148a9619b9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ux_page_property_156b777fdbe624902443e7148a9619b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-04 19:55:58</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_gq2.2e80ee53dbeaa0902443e7148a9619aa.root.chrome_header</unique_name>
+        <value>{&#13;
+  "privatePage": {&#13;
+    "notificationsEnabled": true,&#13;
+    "searchEnabled": true,&#13;
+    "userPrefsEnabled": true,&#13;
+    "currentScreenLinkConfiguration": {&#13;
+      "roles": [&#13;
+        "workspace_admin"&#13;
+      ],&#13;
+      "position": 150&#13;
+    },&#13;
+    "globalTools": {&#13;
+      "collapsingMenuId": 0,&#13;
+      "primaryItems": [&#13;
+        {&#13;
+          "label": {&#13;
+              "translatable": true,&#13;
+              "message": "UserMenu"&#13;
+          },&#13;
+          "icon": "user",&#13;
+          "type": "menu",&#13;
+          "primaryDisplay": "icon",&#13;
+          "value": {&#13;
+            "children": [&#13;
+              {&#13;
+                "_roles": [&#13;
+                  "ui_builder_admin"&#13;
+                ],&#13;
+                "label": {&#13;
+                  "translatable": true,&#13;
+                  "message": "Configure Workspace"&#13;
+                },&#13;
+                "type": "navigation",&#13;
+                "position": 100,&#13;
+                "primaryDisplay": "none",&#13;
+                "value": {&#13;
+                  "type": "external",&#13;
+                  "opensWindow": "true",&#13;
+                  "value": {&#13;
+                    "href": "/nav_to.do?uri=/sys_ux_app_config.do?sys_id=f224e5a3530210102c30ddeeff7b128d"&#13;
+                  }&#13;
+                }&#13;
+              },&#13;
+              {&#13;
+                "label": {&#13;
+                  "translatable": true,&#13;
+                  "message": "Settings"&#13;
+                },&#13;
+                "type": "menu",&#13;
+                "position": 50,&#13;
+                "value": {&#13;
+                  "children": [&#13;
+                    {&#13;
+                      "label": {&#13;
+                        "translatable": true,&#13;
+                        "message": "Display Preferences"&#13;
+                      },&#13;
+                      "type": "divider"&#13;
+                    },&#13;
+                    {&#13;
+                      "label": {&#13;
+                          "translatable": true,&#13;
+                          "message": "Show ribbon"&#13;
+                      },&#13;
+                      "type": "toggle",&#13;
+                      "value": {&#13;
+                        "_meta": {&#13;
+                          "_type": "userPreferences",&#13;
+                          "_path": "userPrefName",&#13;
+                          "_value": {&#13;
+                            "userPrefName": "workspace.showRibbon"&#13;
+                          },&#13;
+                          "_default": {&#13;
+                            "userPrefName": "true"&#13;
+                          }&#13;
+                        }&#13;
+                      }&#13;
+                    },&#13;
+                    {&#13;
+                      "label": {&#13;
+                          "translatable": true,&#13;
+                          "message": "Show sidebar"&#13;
+                      },&#13;
+                      "type": "toggle",&#13;
+                      "value": {&#13;
+                        "_meta": {&#13;
+                          "_type": "userPreferences",&#13;
+                          "_path": "userPrefName",&#13;
+                          "_value": {&#13;
+                            "userPrefName": "workspace.showAgentAssist"&#13;
+                          },&#13;
+                          "_default": {&#13;
+                            "userPrefName": "true"&#13;
+                          }&#13;
+                        }&#13;
+                      }&#13;
+                    },&#13;
+                    {&#13;
+                      "label": {&#13;
+                          "translatable": true,&#13;
+                          "message": "Wrap list text"&#13;
+                      },&#13;
+                      "type": "toggle",&#13;
+                      "value": {&#13;
+                        "_meta": {&#13;
+                          "_type": "userPreferences",&#13;
+                          "_path": "userPrefName",&#13;
+                          "_value": {&#13;
+                            "userPrefName": "workspace.wrapListText"&#13;
+                          },&#13;
+                          "_default": {&#13;
+                            "userPrefName": "false"&#13;
+                          }&#13;
+                        }&#13;
+                      }&#13;
+                    },&#13;
+                    {&#13;
+                      "label": {&#13;
+                        "translatable": true,&#13;
+                        "message": "Notifications"&#13;
+                      },&#13;
+                      "type": "divider"&#13;
+                    },&#13;
+                    {&#13;
+                      "label": {&#13;
+                        "translatable": true,&#13;
+                        "message": "Show Banners"&#13;
+                      },&#13;
+                      "type": "toggle",&#13;
+                      "value": {&#13;
+                        "_meta": {&#13;
+                          "_type": "userPreferences",&#13;
+                          "_path": "userPrefName",&#13;
+                          "_value": {&#13;
+                            "userPrefName": "workspace.notifications.showPopups"&#13;
+                          },&#13;
+                          "_default": {&#13;
+                            "userPrefName": "true"&#13;
+                          }&#13;
+                        }&#13;
+                      }&#13;
+                    },&#13;
+                    {&#13;
+                      "label": {&#13;
+                        "translatable": true,&#13;
+                        "message": "Show Badge Count"&#13;
+                      },&#13;
+                      "type": "toggle",&#13;
+                      "value": {&#13;
+                        "_meta": {&#13;
+                          "_type": "userPreferences",&#13;
+                          "_path": "userPrefName",&#13;
+                          "_value": {&#13;
+                            "userPrefName": "workspace.notifications.showBadgeCount"&#13;
+                          },&#13;
+                          "_default": {&#13;
+                            "userPrefName": "true"&#13;
+                          }&#13;
+                        }&#13;
+                      }&#13;
+                    }&#13;
+                  ]&#13;
+                }&#13;
+              },&#13;
+              {&#13;
+                "label": {&#13;
+                  "translatable": true,&#13;
+                  "message": "Logout"&#13;
+                },&#13;
+                "type": "navigation",&#13;
+                "position": 200,&#13;
+                "value": {&#13;
+                  "value": {&#13;
+                    "href": "/logout.do"&#13;
+                  },&#13;
+                  "type": "external"&#13;
+                }&#13;
+              }&#13;
+            ]&#13;
+          }&#13;
+        }&#13;
+      ],&#13;
+      "secondaryItems": []&#13;
+    }&#13;
+  },&#13;
+  "publicPage": {&#13;
+    "actionButtons": []&#13;
+  }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=156b777fdbe624902443e7148a9619b9"/>
+</record_update>

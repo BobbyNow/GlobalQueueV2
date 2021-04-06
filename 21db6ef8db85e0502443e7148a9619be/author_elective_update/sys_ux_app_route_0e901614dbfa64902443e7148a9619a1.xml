@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Global Queue v2">3320aa53dbeaa0902443e7148a9619b5</app_config>
+        <description/>
+        <fields>table,sysId</fields>
+        <icon>paperclip-outline</icon>
+        <name>Custom Sidebar</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>custom_sidebar_1</route_type>
+        <screen_type display_value="Custom Sidebar">2d90d250dbfa64902443e7148a961998</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-06 01:23:39</sys_created_on>
+        <sys_id>0e901614dbfa64902443e7148a9619a1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Custom Sidebar</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ux_app_route_0e901614dbfa64902443e7148a9619a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-06 02:21:48</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</application>
+        <file_path/>
+        <instance_id>63489765db7633403050ac44d49619d5</instance_id>
+        <instance_name>serviceconnectaus</instance_name>
+        <name>sys_ux_app_route_0e901614dbfa64902443e7148a9619a1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Global Queue v2">3320aa53dbeaa0902443e7148a9619b5</app_config><description/><fields>table,sysId</fields><icon>paperclip-outline</icon><name>Custom Sidebar</name><optional_parameters/><order>0</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>custom_sidebar_1</route_type><screen_type display_value="Custom Sidebar">2d90d250dbfa64902443e7148a961998</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-06 01:23:39</sys_created_on><sys_id>0e901614dbfa64902443e7148a9619a1</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Custom Sidebar</sys_name><sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package><sys_policy/><sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope><sys_update_name>sys_ux_app_route_0e901614dbfa64902443e7148a9619a1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-06 02:21:48</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>653794408</payload_hash>
+        <record_name>Custom Sidebar</record_name>
+        <reverted_from/>
+        <source>a5db6ef8db85e0502443e7148a9619c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-06 02:21:48</sys_created_on>
+        <sys_id>a5edd2dcdbfa64902443e7148a9619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178055743900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-06 02:21:48</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>ededd2dc83fa6490df20ed12022d29b5</update_guid>
+        <update_guid_history>ededd2dc83fa6490df20ed12022d29b5:653794408,3db656580dfa6490af8d742a77f46e67:-1191623359,4a90161497fa6490fc36e2895b3018a3:-681856516</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-08 18:42:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>15e2199bfb6f4e608461c7580e62a100</sys_id>
+        <sys_metadata>0e901614dbfa64902443e7148a9619a1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Sidebar</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_scope_delete display_value="">091a9fd979b545d28a39ab3c519bb844</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_0e901614dbfa64902443e7148a9619a1</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_0e901614dbfa64902443e7148a9619a1">a5edd2dcdbfa64902443e7148a9619b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-08 18:42:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Remote Task" max_length="40" name="x_snc_gq2_task" sizeclass="41" type="collection">
+        <element label="Endpoint" max_length="1024" name="endpoint" type="url"/>
+        <element attributes="encode_utf8=false" label="Remote Task" max_length="32" name="remote_task" reference="x_snc_gq2_st_remote_task" type="reference"/>
+    </element>
+</database>

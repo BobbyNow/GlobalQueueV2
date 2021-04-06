@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="DELETE">
+        <action/>
+        <action_attributes/>
+        <action_name>Test Open New Tab</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>primary</button_type>
+        <client_action display_value="Test open new tab">3f5282d5dbfa28902443e7148a9619e2</client_action>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode/>
+        <declarative_action_type>uxf_client_action</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon/>
+        <enabled>true</enabled>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position>contexual_sidebar</form_position>
+        <group/>
+        <group_by>false</group_by>
+        <icon/>
+        <label>Test Open New Tab</label>
+        <model display_value="UXF">607c997b73210010fd843c78caf6a752</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>0</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>false</record_selection_required>
+        <required_roles/>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <server_script/>
+        <specificity>21</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-09 02:57:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3b4242d5dbfa28902443e7148a961977</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Test Open New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_3b4242d5dbfa28902443e7148a961977</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-09 02:59:12</sys_updated_on>
+        <table>x_snc_gq2_task</table>
+        <tooltip/>
+        <ui_component/>
+        <view/>
+        <workspace/>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="DELETE" query="documentkey=3b4242d5dbfa28902443e7148a961977"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</application>
+        <file_path/>
+        <instance_id>63489765db7633403050ac44d49619d5</instance_id>
+        <instance_name>serviceconnectaus</instance_name>
+        <name>sys_declarative_action_assignment_3b4242d5dbfa28902443e7148a961977</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment"><sys_declarative_action_assignment action="INSERT_OR_UPDATE"><action/><action_attributes/><action_name>Test Open New Tab</action_name><action_payload/><action_type>type</action_type><active>true</active><button_type>primary</button_type><client_action display_value="Test open new tab">3f5282d5dbfa28902443e7148a9619e2</client_action><client_conditions/><client_conditions_on_fields/><confirmation_message/><confirmation_required>false</confirmation_required><create_access>false</create_access><declarative_action_render_mode/><declarative_action_type>uxf_client_action</declarative_action_type><delete_access>false</delete_access><dependency/><description/><design_icon/><enabled>true</enabled><field_name/><field_type>glide_date</field_type><form_fields_required>false</form_fields_required><form_position>contexual_sidebar</form_position><group/><group_by>false</group_by><icon/><label>Test Open New Tab</label><model display_value="UXF">607c997b73210010fd843c78caf6a752</model><model_conditions/><model_field_required/><order>0</order><payload_map/><read_access>false</read_access><record_conditions/><record_selection_required>false</record_selection_required><required_roles/><requires_value>false</requires_value><script_condition/><server_script/><specificity>21</specificity><sys_class_name>sys_declarative_action_assignment</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-09 02:57:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3b4242d5dbfa28902443e7148a961977</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Test Open New Tab</sys_name><sys_overrides/><sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package><sys_policy/><sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope><sys_update_name>sys_declarative_action_assignment_3b4242d5dbfa28902443e7148a961977</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-09 02:59:12</sys_updated_on><table>x_snc_gq2_task</table><tooltip/><ui_component/><view/><workspace/><write_access>false</write_access></sys_declarative_action_assignment><sys_translated_text action="delete_multiple" query="documentkey=3b4242d5dbfa28902443e7148a961977"/></record_update>]]></payload>
+        <payload_hash>2066881994</payload_hash>
+        <record_name>Test Open New Tab</record_name>
+        <reverted_from/>
+        <source>a5db6ef8db85e0502443e7148a9619c0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-09 02:59:12</sys_created_on>
+        <sys_id>f6334ed5dbfa28902443e7148a961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17814ec960a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-09 02:59:12</sys_updated_on>
+        <type>Action Assignment</type>
+        <update_guid>32334ed57efa2890df6ac3b8fddde778</update_guid>
+        <update_guid_history>32334ed57efa2890df6ac3b8fddde778:2066881994,27c2c6d588fa2890c6d13294a7d2ebeb:282764075</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-09 15:23:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_declarative_action_assignment">sys_declarative_action_assignment</sys_db_object>
+        <sys_id>4f83dae9a2af4316ac9ada67e4fb6af1</sys_id>
+        <sys_metadata>3b4242d5dbfa28902443e7148a961977</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Open New Tab</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_scope_delete display_value="">091a9fd979b545d28a39ab3c519bb844</sys_scope_delete>
+        <sys_update_name>sys_declarative_action_assignment_3b4242d5dbfa28902443e7148a961977</sys_update_name>
+        <sys_update_version display_value="sys_declarative_action_assignment_3b4242d5dbfa28902443e7148a961977">f6334ed5dbfa28902443e7148a961978</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-09 15:23:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
