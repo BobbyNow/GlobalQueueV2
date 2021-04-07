@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="all_tables.detail_row=short_description,all_tables.display_color=priority,all_tables.live_feed=true,all_tables.text_index_translations=true,extension_model=hierarchy,hasListeners=true,largeTable=true,reference_index_include=active" label="Task" max_length="40" name="task" sizeclass="12935" text_index="true" type="collection">
+    <element attributes="all_tables.detail_row=short_description,all_tables.display_color=priority,all_tables.live_feed=true,all_tables.text_index_translations=true,extension_model=hierarchy,hasListeners=true,largeTable=true,reference_index_include=active" label="Task" max_length="40" name="task" sizeclass="12956" text_index="true" type="collection">
         <element default="Local" label="Instance" max_length="40" name="x_snc_gq2_instance" type="string"/>
         <element label="Next SLA  Due" max_length="40" name="x_snc_gq2_next_sla_due" type="glide_duration"/>
     </element>

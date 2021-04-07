@@ -105,7 +105,7 @@
             "label" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
-                "message" : "All Open Tasks",
+                "message" : "All Active Tasks",
                 "comment" : ""
               }
             },
@@ -188,7 +188,7 @@
             "label" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
-                "message" : "My Open Tasks",
+                "message" : "My Active Tasks",
                 "comment" : ""
               }
             },
@@ -271,7 +271,7 @@
             "label" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
-                "message" : "Open Critical Tasks",
+                "message" : "Active Critical Tasks",
                 "comment" : ""
               }
             },
@@ -469,7 +469,7 @@
             "label" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
-                "message" : "Open Tasks by Instance",
+                "message" : "Active Tasks by Instance",
                 "comment" : ""
               }
             },
@@ -552,7 +552,7 @@
             "label" : {
               "type" : "TRANSLATION_LITERAL",
               "value" : {
-                "message" : "Open Tasks by Customer",
+                "message" : "Active Tasks by Customer",
                 "comment" : ""
               }
             },
@@ -617,89 +617,6 @@
           },
           "eventMappings" : [ ],
           "slot" : "Column 4",
-          "definition" : {
-            "id" : "67cf18a377c70010cb834a2a6910619a",
-            "type" : "MACROPONENT"
-          },
-          "overrides" : null,
-          "isHidden" : {
-            "type" : "JSON_LITERAL",
-            "value" : ""
-          },
-          "isNonDestructive" : false,
-          "styles" : { }
-        }, {
-          "elementId" : "data_visualization_7",
-          "elementLabel" : "Data visualization 7",
-          "propertyValues" : {
-            "label" : {
-              "type" : "TRANSLATION_LITERAL",
-              "value" : {
-                "message" : "Open Tasks by State",
-                "comment" : ""
-              }
-            },
-            "chartType" : {
-              "type" : "JSON_LITERAL",
-              "value" : "horizontal_bar"
-            },
-            "dataConfigurations" : {
-              "type" : "JSON_LITERAL",
-              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTkxMzkwNjUzNg==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"group_by\":\"state\",\"number_of_groups\":10,\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
-            },
-            "styleConfigurations" : {
-              "type" : "JSON_LITERAL",
-              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"xAxisConfig\":{},\"yAxisConfig\":{},\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"},\"hideRegister\":true,\"registerConfig\":{\"legendOnly\":true},\"registerPosition\":\"bottom\"}"
-            },
-            "isRealtime" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
-            },
-            "showRealtimeIndicator" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
-            },
-            "variant" : {
-              "type" : "JSON_LITERAL",
-              "value" : "auto"
-            },
-            "border" : {
-              "type" : "JSON_LITERAL",
-              "value" : true
-            },
-            "refreshInterval" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
-            },
-            "kpiDetailsNavigation" : {
-              "type" : "JSON_LITERAL",
-              "value" : false
-            },
-            "followFilters" : {
-              "type" : "JSON_LITERAL",
-              "value" : true
-            },
-            "hideFiltersInfo" : {
-              "type" : "JSON_LITERAL",
-              "value" : false
-            },
-            "filterConfigurations" : {
-              "type" : "STATE_BINDING",
-              "binding" : {
-                "address" : [ "parFilters" ]
-              }
-            },
-            "hideHeader" : {
-              "type" : "JSON_LITERAL",
-              "value" : false
-            },
-            "refreshFrequency" : {
-              "type" : "JSON_LITERAL",
-              "value" : ""
-            }
-          },
-          "eventMappings" : [ ],
-          "slot" : "Column 3",
           "definition" : {
             "id" : "67cf18a377c70010cb834a2a6910619a",
             "type" : "MACROPONENT"
@@ -783,6 +700,89 @@
           },
           "eventMappings" : [ ],
           "slot" : "Column 1",
+          "definition" : {
+            "id" : "67cf18a377c70010cb834a2a6910619a",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : { }
+        }, {
+          "elementId" : "data_visualization_9",
+          "elementLabel" : "Data visualization 9",
+          "propertyValues" : {
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Remote Tasks by State",
+                "comment" : ""
+              }
+            },
+            "chartType" : {
+              "type" : "JSON_LITERAL",
+              "value" : "horizontal_bar"
+            },
+            "dataConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "[{\"__viz_config_id\":\"dGFibGV4X3NuY19ncTJfdGFzazE2MTc4MzE3NzEzOTY=\",\"__viz_config_label\":\"Remote Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe\",\"group_by\":\"state\",\"number_of_groups\":10,\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"x_snc_gq2_task\"}]"
+            },
+            "styleConfigurations" : {
+              "type" : "JSON_LITERAL",
+              "value" : "{\"width\":\"auto\",\"height\":\"auto\",\"showDataLabels\":false,\"xAxisConfig\":{},\"yAxisConfig\":{},\"dataLabelConfig\":{\"align\":\"middle\",\"collisions\":\"hide\",\"stacked\":\"individual\",\"valueType\":\"both\"},\"hideRegister\":false,\"registerConfig\":{\"legendOnly\":true},\"registerPosition\":\"bottom\"}"
+            },
+            "isRealtime" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "showRealtimeIndicator" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "auto"
+            },
+            "border" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "refreshInterval" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            },
+            "kpiDetailsNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "followFilters" : {
+              "type" : "JSON_LITERAL",
+              "value" : true
+            },
+            "hideFiltersInfo" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "filterConfigurations" : {
+              "type" : "STATE_BINDING",
+              "binding" : {
+                "address" : [ "parFilters" ]
+              }
+            },
+            "hideHeader" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "refreshFrequency" : {
+              "type" : "JSON_LITERAL",
+              "value" : ""
+            }
+          },
+          "eventMappings" : [ ],
+          "slot" : "Column 3",
           "definition" : {
             "id" : "67cf18a377c70010cb834a2a6910619a",
             "type" : "MACROPONENT"
@@ -1089,7 +1089,7 @@
         <macroponent_dependencies/>
         <name>Global Queue</name>
         <props>[ ]</props>
-        <required_translations>[{"message":"All Open Tasks","comment":""},{"message":"Open Tasks by Instance","comment":""},{"message":"Open Tasks by Customer","comment":""},{"message":"Active Unassigned Tasks","comment":""},{"message":"My Open Tasks","comment":""},{"message":"Open Tasks by State","comment":""},{"message":"Open Critical Tasks","comment":""},{"message":"Top 5 Must Do","comment":""},{"message":"My Dashboard","comment":""},{"message":"Breaching SLA This Week","comment":""}]</required_translations>
+        <required_translations>[{"message":"Active Tasks by Customer","comment":""},{"message":"Active Unassigned Tasks","comment":""},{"message":"My Active Tasks","comment":""},{"message":"Active Critical Tasks","comment":""},{"message":"Remote Tasks by State","comment":""},{"message":"Top 5 Must Do","comment":""},{"message":"All Active Tasks","comment":""},{"message":"My Dashboard","comment":""},{"message":"Active Tasks by Instance","comment":""},{"message":"Breaching SLA This Week","comment":""}]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
@@ -1099,13 +1099,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-08 23:17:44</sys_created_on>
         <sys_id>6280dd9ddb3a28902443e7148a961992</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Global Queue</sys_name>
         <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
         <sys_update_name>sys_ux_macroponent_6280dd9ddb3a28902443e7148a961992</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-06 23:55:37</sys_updated_on>
+        <sys_updated_on>2021-04-07 22:12:47</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

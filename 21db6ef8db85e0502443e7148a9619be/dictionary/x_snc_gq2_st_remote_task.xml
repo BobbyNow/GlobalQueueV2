@@ -14,7 +14,9 @@
         <element label="Number" max_length="40" name="number" type="string"/>
         <element label="Priority" max_length="40" name="priority" type="string"/>
         <element label="Short Description" max_length="256" name="short_description" type="string"/>
-        <element label="State" max_length="40" name="state" type="string"/>
+        <element choice="3" choice_field="state" choice_table="x_snc_gq2_task" label="State" max_length="40" name="state" type="integer">
+            <choice/>
+        </element>
         <index name="index">
             <element name="assignment_group"/>
         </index>
