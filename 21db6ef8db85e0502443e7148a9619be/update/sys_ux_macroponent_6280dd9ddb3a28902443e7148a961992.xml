@@ -115,7 +115,7 @@
             },
             "dataConfigurations" : {
               "type" : "JSON_LITERAL",
-              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg3MTI5NDE3NQ==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg3MTI5NDE3NQ==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
             },
             "styleConfigurations" : {
               "type" : "JSON_LITERAL",
@@ -198,7 +198,7 @@
             },
             "dataConfigurations" : {
               "type" : "JSON_LITERAL",
-              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg2OTk1NjYxMA==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^assigned_toISNOTEMPTY^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"start_time\":\"P3M\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg2OTk1NjYxMA==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"start_time\":\"P3M\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
             },
             "styleConfigurations" : {
               "type" : "JSON_LITERAL",
@@ -281,7 +281,7 @@
             },
             "dataConfigurations" : {
               "type" : "JSON_LITERAL",
-              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg3MDAyMzM3Nw==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^priority=1^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg3MDAyMzM3Nw==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^priority=1^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
             },
             "styleConfigurations" : {
               "type" : "JSON_LITERAL",
@@ -364,7 +364,7 @@
             },
             "dataConfigurations" : {
               "type" : "JSON_LITERAL",
-              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg3MDEwMDQzMg==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^assigned_toISEMPTY^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg3MDEwMDQzMg==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
             },
             "styleConfigurations" : {
               "type" : "JSON_LITERAL",
@@ -479,7 +479,7 @@
             },
             "dataConfigurations" : {
               "type" : "JSON_LITERAL",
-              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTkxMzUzMzk5Mg==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^x_snc_gq2_instanceISNOTEMPTY^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"group_by\":\"x_snc_gq2_instance\",\"number_of_groups\":10,\"start_time\":\"P3M\",\"source_type\":\"table\",\"source_id\":\"task\"}]"
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTkxMzUzMzk5Mg==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^x_snc_gq2_instanceISNOTEMPTY^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"group_by\":\"x_snc_gq2_instance\",\"number_of_groups\":10,\"start_time\":\"P3M\",\"source_type\":\"table\",\"source_id\":\"task\"}]"
             },
             "styleConfigurations" : {
               "type" : "JSON_LITERAL",
@@ -562,7 +562,7 @@
             },
             "dataConfigurations" : {
               "type" : "JSON_LITERAL",
-              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTkxMzgwMDE4Mw==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^companyISNOTEMPTY^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"group_by\":\"company\",\"number_of_groups\":10,\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTkxMzgwMDE4Mw==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^companyISNOTEMPTY^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"group_by\":\"company\",\"number_of_groups\":10,\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
             },
             "styleConfigurations" : {
               "type" : "JSON_LITERAL",
@@ -645,7 +645,7 @@
             },
             "dataConfigurations" : {
               "type" : "JSON_LITERAL",
-              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTkxMzkwNjUzNg==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"group_by\":\"state\",\"number_of_groups\":10,\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTkxMzkwNjUzNg==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"group_by\":\"state\",\"number_of_groups\":10,\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
             },
             "styleConfigurations" : {
               "type" : "JSON_LITERAL",
@@ -728,7 +728,7 @@
             },
             "dataConfigurations" : {
               "type" : "JSON_LITERAL",
-              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg2OTg3Mjc1Mg==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^x_snc_gq2_next_sla_due&lt;1970-01-08 00:00:00^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"group_by\":\"x_snc_gq2_next_sla_due\",\"number_of_groups\":\"ALL\",\"start_time\":\"P3M\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
+              "value" : "[{\"__viz_config_id\":\"dGFibGV0YXNrMTYxNTg2OTg3Mjc1Mg==\",\"__viz_config_label\":\"Task\",\"aggregate_function\":\"COUNT\",\"filter_query\":\"active=true^x_snc_gq2_next_sla_due&lt;1970-01-08 00:00:00^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task\",\"group_by\":\"x_snc_gq2_next_sla_due\",\"number_of_groups\":\"ALL\",\"start_time\":\"P3M\",\"display_zero\":true,\"source_type\":\"table\",\"source_id\":\"task\"}]"
             },
             "styleConfigurations" : {
               "type" : "JSON_LITERAL",
@@ -853,7 +853,7 @@
     },
     "query" : {
       "type" : "JSON_LITERAL",
-      "value" : "active=true^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task"
+      "value" : "active=true^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task"
     },
     "columns" : {
       "type" : "JSON_LITERAL",
@@ -1099,13 +1099,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-08 23:17:44</sys_created_on>
         <sys_id>6280dd9ddb3a28902443e7148a961992</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Global Queue</sys_name>
         <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
         <sys_update_name>sys_ux_macroponent_6280dd9ddb3a28902443e7148a961992</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-16 17:50:55</sys_updated_on>
+        <sys_updated_on>2021-04-06 23:55:37</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
