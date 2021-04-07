@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Toggle Domain Scope</name>
+        <specificity>20</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-07 03:35:08</sys_created_on>
+        <sys_id>849167aadbd32050dc273027f3961988</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Toggle Domain Scope</sys_name>
+        <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
+        <sys_update_name>sys_ux_form_action_849167aadbd32050dc273027f3961988</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-07 03:37:07</sys_updated_on>
+        <table>incident</table>
+        <ui_action display_value="Toggle Domain Scope">31df5b2adbd32050dc273027f39619fa</ui_action>
+    </sys_ux_form_action>
+</record_update>
