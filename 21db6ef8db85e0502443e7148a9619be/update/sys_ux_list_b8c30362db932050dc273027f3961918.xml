@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
-        <category display_value="Tasks By Instance">83a13ad6db8fa010dc273027f396193a</category>
+        <category display_value="ITSM">4631ea93dbeaa0902443e7148a96198b</category>
         <columns>number,short_description,priority,state,x_snc_gq2_next_sla_due,x_snc_gq2_instance</columns>
-        <condition table="task">active=true^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task^numberSTARTSWITHINC^x_snc_gq2_instance=ServiceConnectAUS^assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <condition table="task">active=true^sys_class_name=incident^ORsys_class_name=x_snc_gq2_task^numberSTARTSWITHINC^assigned_toISEMPTY^assignment_groupDYNAMICd6435e965f510100a9ad2572f2b47744^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item display_value="Incident" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="incident"/>
             <item display_value="Remote Task" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="x_snc_gq2_task"/>
             <item endquery="false" field="number" goto="false" newquery="false" operator="STARTSWITH" or="false" value="INC"/>
-            <item endquery="false" field="x_snc_gq2_instance" goto="false" newquery="false" operator="=" or="false" value="ServiceConnectAUS"/>
-            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="DYNAMIC" or="false" value="d6435e965f510100a9ad2572f2b47744"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <configuration display_value="Global Queue">7e21aa93dbeaa0902443e7148a9619a4</configuration>
@@ -18,20 +18,20 @@
         <roles/>
         <sys_class_name>sys_ux_list</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-04-06 18:30:09</sys_created_on>
+        <sys_created_on>2021-04-07 01:24:56</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>41d42962db5fec10dc273027f396199c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>ServiceConnectAUS</sys_name>
+        <sys_id>b8c30362db932050dc273027f3961918</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unassigned Incidents</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
         <sys_policy/>
         <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
-        <sys_update_name>sys_ux_list_41d42962db5fec10dc273027f396199c</sys_update_name>
+        <sys_update_name>sys_ux_list_b8c30362db932050dc273027f3961918</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-07 01:20:15</sys_updated_on>
+        <sys_updated_on>2021-04-07 01:24:56</sys_updated_on>
         <table>task</table>
-        <title>ServiceConnectAUS</title>
+        <title>Unassigned Incidents</title>
     </sys_ux_list>
 </record_update>
