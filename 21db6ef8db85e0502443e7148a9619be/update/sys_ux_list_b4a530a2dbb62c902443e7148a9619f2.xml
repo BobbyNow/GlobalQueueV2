@@ -2,7 +2,7 @@
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <category display_value="ITSM">4631ea93dbeaa0902443e7148a96198b</category>
-        <columns>number,short_description,priority,state,sys_class_name</columns>
+        <columns>number,short_description,priority,state</columns>
         <condition table="task">active=true^sys_class_name=problem^ORsys_class_name=x_snc_gq2_task^numberSTARTSWITHPRB^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item display_value="Problem" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="problem"/>
             <item display_value="Remote Task" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="true" value="x_snc_gq2_task"/>
@@ -20,7 +20,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b4a530a2dbb62c902443e7148a9619f2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>My Open Problems</sys_name>
         <sys_overrides/>
         <sys_package display_value="Global Queue V2" source="x_snc_gq2">21db6ef8db85e0502443e7148a9619be</sys_package>
@@ -28,7 +28,7 @@
         <sys_scope display_value="Global Queue V2">21db6ef8db85e0502443e7148a9619be</sys_scope>
         <sys_update_name>sys_ux_list_b4a530a2dbb62c902443e7148a9619f2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-24 19:10:23</sys_updated_on>
+        <sys_updated_on>2021-04-07 00:55:12</sys_updated_on>
         <table>task</table>
         <title>My Open Problems</title>
     </sys_ux_list>
